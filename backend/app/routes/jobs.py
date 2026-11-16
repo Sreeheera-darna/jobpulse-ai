@@ -5,15 +5,35 @@ from fastapi import APIRouter
 
 router = APIRouter()
 
-DATA_FILE = Path(__file__).resolve().parents[2] / "india_jobs_classified.json"
+DATA_DIR = Path(__file__).resolve().parents[2]
+LATEST_JOBS_FILE = DATA_DIR / "india_jobs.json"
+CLASSIFIED_JOBS_FILE = DATA_DIR / "india_jobs_classified.json"
 
 
 def load_jobs():
-    if not DATA_FILE.exists():
+    if not LATEST_JOBS_FILE.exists():
         return []
 
-    with open(DATA_FILE, "r", encoding="utf-8") as file:
-        return json.load(file)
+    with open(LATEST_JOBS_FILE, "r", encoding="utf-8") as file:
+        latest_jobs = json.load(file)
+
+    classifications = {}
+
+    if CLASSIFIED_JOBS_FILE.exists():
+        with open(CLASSIFIED_JOBS_FILE, "r", encoding="utf-8") as file:
+            classified_jobs = json.load(file)
+
+        for job in classified_jobs:
+            job_url = job.get("absolute_url", "")
+            if job_url and "ai_classification" in job:
+                classifications[job_url] = job["ai_classification"]
+
+    for job in latest_jobs:
+        job_url = job.get("absolute_url", "")
+        if job_url in classifications:
+            job["ai_classification"] = classifications[job_url]
+
+    return latest_jobs
 
 
 @router.get("/jobs")
@@ -30,20 +50,12 @@ async def get_jobs(search: str = "", experience: str = ""):
 
         city = classification.get("city", original_location)
         role = classification.get("role_category", "Unclassified")
-        experience_level = classification.get(
-            "experience_level", "Unknown"
-        )
-        fresher_eligible = classification.get(
-            "is_fresher_eligible", None
-        )
+        experience_level = classification.get("experience_level", "Unknown")
+        fresher_eligible = classification.get("is_fresher_eligible")
 
         if search:
-            search_text = search.lower()
-            searchable_text = (
-                f"{title} {company} {city} {role}"
-            ).lower()
-
-            if search_text not in searchable_text:
+            searchable_text = f"{title} {company} {city} {role}".lower()
+            if search.lower() not in searchable_text:
                 continue
 
         if experience and experience_level.lower() != experience.lower():

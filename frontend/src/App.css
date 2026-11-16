@@ -164,3 +164,33 @@ body {
   background-color: #fee2e2;
   color: #991b1b;
 }
+
+/* Fix search input and experience dropdown visibility */
+.filters input,
+.filters select {
+  background-color: #ffffff;
+  color: #1f2937;
+  border: 1px solid #cbd5e1;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* Make placeholder text visible */
+.filters input::placeholder {
+  color: #64748b;
+  opacity: 1;
+}
+
+/* Make dropdown options readable */
+.filters select option {
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+/* Visible focus state */
+.filters input:focus,
+.filters select:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 1px;
+}
