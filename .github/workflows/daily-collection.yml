@@ -1,30 +1,30 @@
-name: Daily Job Collection
-
+﻿name: Daily Job Collection
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "30 1 * * *"
-
+permissions:
+  contents: write
 jobs:
   collect-jobs:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         working-directory: backend
-        run: |
-          pip install -r requirements.txt
-
+        run: pip install -r requirements.txt
       - name: Collect job listings
         working-directory: backend
+        run: python collect_jobs.py
+      - name: Save updated job data
         run: |
-          python collect_jobs.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backend/india_jobs.json
+          git diff --cached --quiet || git commit -m "Update India job listings"
+          git push
