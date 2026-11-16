@@ -1488,61 +1488,6 @@
         "source_company": "gitlab"
     },
     {
-        "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8800507002",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "internal_job_id": 6521386002,
-        "location": {
-            "name": "Bangalore, India"
-        },
-        "metadata": [
-            {
-                "id": 4595831002,
-                "name": "Quota Coverage Type",
-                "value": "n/a",
-                "value_type": "single_select"
-            }
-        ],
-        "id": 8800507002,
-        "updated_at": "2026-11-06T15:25:07-05:00",
-        "requisition_id": "6980",
-        "title": "Senior Backend Engineer, Cloud Cost & Capacity",
-        "company_name": "GitLab",
-        "first_published": "2026-11-04T07:32:00-05:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt;*&lt;em&gt;Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Senior Backend Engineer&lt;/h2&gt;\n&lt;p&gt;As a Senior Backend Engineer on our Cloud Cost and Capacity capability, you&#39;ll build the internal software that helps us understand, attribute, and plan the cloud infrastructure that runs GitLab.com. You&#39;ll turn Google Cloud billing and usage data into pipelines, attribution models, and applications that help service owners understand what they consume and spend, plan reservations, and prevent capacity shortages.&lt;/p&gt;\n&lt;p&gt;You&#39;ll be the first engineer dedicated to this capability, setting the technical direction and building the foundations a growing team will extend. You&#39;ll treat cloud cost and capacity as one roadmap, choosing the architecture, data models, and tools that let service owners manage their usage and spending.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you&#39;ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build data pipelines that turn Google Cloud billing exports and Cloud Monitoring telemetry into a clean, queryable picture of fleet usage and utilization in BigQuery.&lt;/li&gt;\n&lt;li&gt;Attribute shared cost and usage across Google Kubernetes Engine clusters to the teams and services that drive them, using foundations such as OpenCost and Google Kubernetes Engine cost allocation.&lt;/li&gt;\n&lt;li&gt;Develop capacity and demand tooling that profiles infrastructure needs by machine family and region to support reservation planning and prevent capacity shortages.&lt;/li&gt;\n&lt;li&gt;Ship internal applications that let engineers and budget owners see and act on their cloud footprint, replacing manual snapshots and spreadsheets with software.&lt;/li&gt;\n&lt;li&gt;Establish the data models, services, and engineering standards that future team members will extend, and help shape technical direction and hiring as we grow.&lt;/li&gt;\n&lt;li&gt;Partner with Finance, product teams, service owners, and infrastructure engineers to turn their needs into technical designs.&lt;/li&gt;\n&lt;li&gt;Use artificial intelligence in your daily engineering workflow to improve efficiency and outcomes, as we expect of all GitLab team members.&lt;/li&gt;\n&lt;li&gt;&lt;span data-sheets-root=&quot;1&quot;&gt;Take part in on-call or operational support where your team’s ownership model requires it.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What you&#39;ll bring&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;A track record of designing and shipping production backend services that you&#39;ve owned end to end, beyond operating existing systems.&lt;/li&gt;\n&lt;li&gt;Strong structured query language (SQL) skills with large datasets, experience building and maintaining data pipelines and models, and comfort working with cloud billing and usage data.&lt;/li&gt;\n&lt;li&gt;Working knowledge of a major cloud platform, preferably Google Cloud, including compute services, Kubernetes, and pricing and billing models.&lt;/li&gt;\n&lt;li&gt;Proficiency in a general-purpose programming language for tooling and pipelines. We value your ability to build and ship over mastery of a single language; Go and Python suit this work, and we use Ruby across our product code.&lt;/li&gt;\n&lt;li&gt;The ability to break a new problem into milestones and drive it to production with light direction, communicating clearly in a remote, asynchronous environment.&lt;/li&gt;\n&lt;li&gt;Helpful, not required: OpenCost, Kubecost, or Google Kubernetes Engine cost allocation; cloud financial management (FinOps) practices or certification; cost or capacity modeling, forecasting, or anomaly detection; Terraform; Looker, Looker Studio, or Grafana; founding engineering work; or artificial intelligence in engineering workflows.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We&#39;re part of the Cloud Cost Utilization team within Infrastructure Platforms, working with Fleet Management. We partner with Finance, product teams, service owners, and infrastructure engineers as our service-ownership model matures. You&#39;ll work with us asynchronously, using clear written communication to turn our partners&#39; needs into technical designs.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h4&gt;&lt;strong&gt;How GitLab Supports Full-Time Employees&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/&quot;&gt;Benefits to support your health, finances, and well-being&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/time-off-types/#flexible-paid-time-off-pto&quot;&gt;Flexible Paid Time Off&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://handbook.gitlab.com/handbook/company/culture/inclusion/tmrg-tmag/&quot;&gt;Team Member Resource Groups&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://handbook.gitlab.com/handbook/total-rewards/stock-options/&quot;&gt;Equity Compensation &amp;amp; Employee Stock Purchase Plan&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://handbook.gitlab.com/handbook/people-group/learning-and-development/growth-and-development/&quot;&gt;Growth and Development Fund&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave&quot;&gt;Parental Leave&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from &lt;a href=&quot;https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups&quot;&gt;underrepresented groups&lt;/a&gt; are less likely to apply to a job unless they meet every single qualification. If you&#39;re excited about this role, please apply and allow our recruiters to assess your application.&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;&lt;strong&gt;Country Hiring Guidelines: &lt;/strong&gt;GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Privacy Policy: &lt;/strong&gt;Please review our &lt;a href=&quot;https://handbook.gitlab.com/handbook/hiring/candidate-faq/recruitment-privacy-policy/&quot; target=&quot;_blank&quot;&gt;Recruitment Privacy Policy.&lt;/a&gt; Your privacy is important to us.&lt;/p&gt;\n&lt;p&gt;GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also&amp;nbsp;&lt;a href=&quot;https://about.gitlab.com/handbook/people-policies/inc-usa/#equal-employment-opportunity-policy&quot; target=&quot;_blank&quot;&gt;GitLab’s EEO Policy&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://about.gitlab.com/handbook/labor-and-employment-notices/#eeoc-us-equal-employment-opportunity-commission-notices&quot; target=&quot;_blank&quot;&gt;EEO is the Law&lt;/a&gt;. If you have a disability or special need that requires&amp;nbsp;&lt;a href=&quot;https://about.gitlab.com/handbook/people-policies/inc-usa/#reasonable-accommodation&quot; target=&quot;_blank&quot;&gt;accommodation&lt;/a&gt;, please let us know during the&amp;nbsp;&lt;a href=&quot;https://about.gitlab.com/handbook/hiring/interviewing/#adjustments-to-our-interview-process&quot; target=&quot;_blank&quot;&gt;recruiting process&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 4016843002,
-                "name": "Platforms Engineering",
-                "child_ids": [],
-                "parent_id": 4011044002
-            }
-        ],
-        "offices": [
-            {
-                "id": 4112140002,
-                "name": "India",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 4019590002
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": null,
-        "source_company": "gitlab"
-    },
-    {
         "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8928675002",
         "data_compliance": [
             {
@@ -6968,6 +6913,103 @@
         "source_company": "okta"
     },
     {
+        "absolute_url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "internal_job_id": 3405787,
+        "location": {
+            "name": "Bengaluru, India"
+        },
+        "metadata": [
+            {
+                "id": 58735330,
+                "name": "Naukri Job URL",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735350,
+                "name": "Naukri Job Error",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735367,
+                "name": "Minimum Salary",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735368,
+                "name": "Maximum Salary",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735384,
+                "name": "City",
+                "value": null,
+                "value_type": "single_select"
+            },
+            {
+                "id": 58735385,
+                "name": "Job Description",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735369,
+                "name": "Minimum Work Experience",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735370,
+                "name": "Maximum Work Experience",
+                "value": null,
+                "value_type": "number"
+            }
+        ],
+        "id": 7781674,
+        "updated_at": "2026-11-16T11:00:55-05:00",
+        "requisition_id": "P22377_3405787",
+        "title": "Principal Software Engineer",
+        "company_name": "Okta",
+        "first_published": "2026-04-10T05:37:23-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;About the Team&lt;/h3&gt;\n&lt;p&gt;Okta&#39;s Core Engineering team is responsible for building and evolving shared infrastructure and services that lay the foundation for what other engineering teams build on. We&#39;re in charge of common shared services like distributed cache, configuration management, frameworks for async job management, internal tooling for developer support, and email pipeline, to name a few. We&#39;re cloud native, where redundancy, multi-tenancy, scale, resource optimization and resiliency are first class citizens. With Okta&#39;s mantra of &#39;Always On!&#39; there&#39;s never a dull moment. Our biggest asset is our team of passionate engineers and technically minded managers.&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;Role:&lt;/h3&gt;\n&lt;p&gt;This is an opportunity for an experienced Backend engineer to join our growing Core Platform team based out of Bengaluru. In this role, you will get to work with highly skilled and talented engineers throughout the organization to build and manage some of the critical platform services powering Okta’s products and infrastructure. This role requires a blend of high-level architectural thinking and hands-on execution to build resilient, high-performance backend services. We are not only passionate about building services but operating them at scale, making them resilient to provide a seamless service to our customers.&lt;/p&gt;\n&lt;p&gt;You&#39;ll be leading a team of highly skilled and talented team players who&#39;re proud of what they own and deliver. Our elite team is fast, creative and flexible; with a weekly release cycle and individual ownership we expect great things from our engineers and reward them with stimulating new projects, new technologies and the chance to have&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;Responsibilities:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Work with engineering teams to design, develop and deliver cloud based infrastructure projects on a modern tech stack (Redis, Elasticsearch, Docker, Terraform on AWS)&lt;/li&gt;\n&lt;li&gt;Drive evaluation, development and roll out of new common microservices&lt;/li&gt;\n&lt;li&gt;Operate, support, and upgrade shared services and frameworks. Scale these as their usage invariably grows along with Okta&#39;s business.&lt;/li&gt;\n&lt;li&gt;Help with design and code reviews. Ensure high programming standard by writing unit and functional tests.&lt;/li&gt;\n&lt;li&gt;Be part of a structured on-call roster, assist with monitoring, troubleshooting of services and frameworks the team owns&lt;/li&gt;\n&lt;li&gt;Collaborate with architects, QA, product owners, security and operations engineers&lt;/li&gt;\n&lt;li&gt;Help with mentoring new engineering hires and interns&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Minimum required knowledge, skills and abilities:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Immense passion about doing the right thing to help Okta&#39;s technology stay ahead of its anticipated business growth&lt;/li&gt;\n&lt;li&gt;Solid technology chops in architecting, implementing, tuning and debugging services in a Cloud native environment preferably in the enterprise world&lt;/li&gt;\n&lt;li&gt;Bachelor&#39;s degree in computer science or equivalent&lt;/li&gt;\n&lt;li&gt;12+ yrs of expansive programming experience in an object-oriented programming language like Java, especially in backend services. A good understanding of multithreading, garbage collection, memory management.&lt;/li&gt;\n&lt;li&gt;7+ yrs experience of working with MySQL or equivalent relational database systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated experience of working with ReST and good understanding of its fundamentals&lt;/li&gt;\n&lt;li&gt;Knowledge of Spring, Spring Boot, Hibernate and Tomcat&lt;/li&gt;\n&lt;li&gt;Knowledge of AWS, Redis, Elasticsearch, and Docker&lt;/li&gt;\n&lt;li&gt;Demonstrably followed best software engineering principles&lt;/li&gt;\n&lt;li&gt;Familiarity with Agile software development process&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Nice to have:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Maintained security, encryption, identity management, or authentication infrastructure&lt;/li&gt;\n&lt;li&gt;Leveraged major public cloud providers to build mission-critical, distributed systems for high availability and scale&lt;/li&gt;\n&lt;li&gt;Experience developing Kubernetes based services on AWS Stack&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;\n&lt;p&gt;P22377_3405787&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 44027,
+                "name": "SW Eng - Infrastructure-672",
+                "child_ids": [],
+                "parent_id": 396304
+            }
+        ],
+        "offices": [
+            {
+                "id": 89126,
+                "name": "Bengaluru",
+                "location": null,
+                "child_ids": [],
+                "parent_id": 89122
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null,
+        "source_company": "okta"
+    },
+    {
         "absolute_url": "https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955",
         "data_compliance": [
             {
@@ -7145,103 +7187,6 @@
                 "name": "BT Engineering Services-779",
                 "child_ids": [],
                 "parent_id": 30147
-            }
-        ],
-        "offices": [
-            {
-                "id": 89126,
-                "name": "Bengaluru",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 89122
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": null,
-        "source_company": "okta"
-    },
-    {
-        "absolute_url": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "internal_job_id": 3405787,
-        "location": {
-            "name": "Bengaluru, India"
-        },
-        "metadata": [
-            {
-                "id": 58735330,
-                "name": "Naukri Job URL",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735350,
-                "name": "Naukri Job Error",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735367,
-                "name": "Minimum Salary",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735368,
-                "name": "Maximum Salary",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735384,
-                "name": "City",
-                "value": null,
-                "value_type": "single_select"
-            },
-            {
-                "id": 58735385,
-                "name": "Job Description",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735369,
-                "name": "Minimum Work Experience",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735370,
-                "name": "Maximum Work Experience",
-                "value": null,
-                "value_type": "number"
-            }
-        ],
-        "id": 7781674,
-        "updated_at": "2026-11-16T11:00:55-05:00",
-        "requisition_id": "P22377_3405787",
-        "title": "Principal Software Engineer",
-        "company_name": "Okta",
-        "first_published": "2026-04-10T05:37:23-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;About the Team&lt;/h3&gt;\n&lt;p&gt;Okta&#39;s Core Engineering team is responsible for building and evolving shared infrastructure and services that lay the foundation for what other engineering teams build on. We&#39;re in charge of common shared services like distributed cache, configuration management, frameworks for async job management, internal tooling for developer support, and email pipeline, to name a few. We&#39;re cloud native, where redundancy, multi-tenancy, scale, resource optimization and resiliency are first class citizens. With Okta&#39;s mantra of &#39;Always On!&#39; there&#39;s never a dull moment. Our biggest asset is our team of passionate engineers and technically minded managers.&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;Role:&lt;/h3&gt;\n&lt;p&gt;This is an opportunity for an experienced Backend engineer to join our growing Core Platform team based out of Bengaluru. In this role, you will get to work with highly skilled and talented engineers throughout the organization to build and manage some of the critical platform services powering Okta’s products and infrastructure. This role requires a blend of high-level architectural thinking and hands-on execution to build resilient, high-performance backend services. We are not only passionate about building services but operating them at scale, making them resilient to provide a seamless service to our customers.&lt;/p&gt;\n&lt;p&gt;You&#39;ll be leading a team of highly skilled and talented team players who&#39;re proud of what they own and deliver. Our elite team is fast, creative and flexible; with a weekly release cycle and individual ownership we expect great things from our engineers and reward them with stimulating new projects, new technologies and the chance to have&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;Responsibilities:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Work with engineering teams to design, develop and deliver cloud based infrastructure projects on a modern tech stack (Redis, Elasticsearch, Docker, Terraform on AWS)&lt;/li&gt;\n&lt;li&gt;Drive evaluation, development and roll out of new common microservices&lt;/li&gt;\n&lt;li&gt;Operate, support, and upgrade shared services and frameworks. Scale these as their usage invariably grows along with Okta&#39;s business.&lt;/li&gt;\n&lt;li&gt;Help with design and code reviews. Ensure high programming standard by writing unit and functional tests.&lt;/li&gt;\n&lt;li&gt;Be part of a structured on-call roster, assist with monitoring, troubleshooting of services and frameworks the team owns&lt;/li&gt;\n&lt;li&gt;Collaborate with architects, QA, product owners, security and operations engineers&lt;/li&gt;\n&lt;li&gt;Help with mentoring new engineering hires and interns&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Minimum required knowledge, skills and abilities:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Immense passion about doing the right thing to help Okta&#39;s technology stay ahead of its anticipated business growth&lt;/li&gt;\n&lt;li&gt;Solid technology chops in architecting, implementing, tuning and debugging services in a Cloud native environment preferably in the enterprise world&lt;/li&gt;\n&lt;li&gt;Bachelor&#39;s degree in computer science or equivalent&lt;/li&gt;\n&lt;li&gt;12+ yrs of expansive programming experience in an object-oriented programming language like Java, especially in backend services. A good understanding of multithreading, garbage collection, memory management.&lt;/li&gt;\n&lt;li&gt;7+ yrs experience of working with MySQL or equivalent relational database systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated experience of working with ReST and good understanding of its fundamentals&lt;/li&gt;\n&lt;li&gt;Knowledge of Spring, Spring Boot, Hibernate and Tomcat&lt;/li&gt;\n&lt;li&gt;Knowledge of AWS, Redis, Elasticsearch, and Docker&lt;/li&gt;\n&lt;li&gt;Demonstrably followed best software engineering principles&lt;/li&gt;\n&lt;li&gt;Familiarity with Agile software development process&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Nice to have:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Maintained security, encryption, identity management, or authentication infrastructure&lt;/li&gt;\n&lt;li&gt;Leveraged major public cloud providers to build mission-critical, distributed systems for high availability and scale&lt;/li&gt;\n&lt;li&gt;Experience developing Kubernetes based services on AWS Stack&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;\n&lt;p&gt;P22377_3405787&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 44027,
-                "name": "SW Eng - Infrastructure-672",
-                "child_ids": [],
-                "parent_id": 396304
             }
         ],
         "offices": [
@@ -9105,6 +9050,103 @@
         "source_company": "okta"
     },
     {
+        "absolute_url": "https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "internal_job_id": 3575624,
+        "location": {
+            "name": "Bengaluru, India"
+        },
+        "metadata": [
+            {
+                "id": 58735330,
+                "name": "Naukri Job URL",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735350,
+                "name": "Naukri Job Error",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735367,
+                "name": "Minimum Salary",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735368,
+                "name": "Maximum Salary",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735384,
+                "name": "City",
+                "value": null,
+                "value_type": "single_select"
+            },
+            {
+                "id": 58735385,
+                "name": "Job Description",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735369,
+                "name": "Minimum Work Experience",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735370,
+                "name": "Maximum Work Experience",
+                "value": null,
+                "value_type": "number"
+            }
+        ],
+        "id": 8263823,
+        "updated_at": "2026-11-16T11:00:55-05:00",
+        "requisition_id": "P22402_3575624",
+        "title": "Senior Software Engineer",
+        "company_name": "Okta",
+        "first_published": "2026-10-29T12:00:21-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;Title of Job: &lt;/strong&gt;Sr&lt;strong&gt;. &lt;/strong&gt;Software Engineer&lt;/h3&gt;\n&lt;p&gt;We are looking for a Senior Software engineer who is passionate about writing the tools to integrate and support to build large-scale, high-demand software in a fast-paced agile environment. You will share our passion for test-driven development, continuous integration and automation to produce frequent high-quality releases.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Our engineering team is fast, innovative and flexible; with a weekly release cycle and individual ownership. We expect great things from our engineers and reward them with stimulating new projects, emerging technologies and the chance to be part of a company that is changing the cloud computing landscape forever.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will get an opportunity to work in scaling our infrastructure to the next generation. Our scale is already huge in running tens of thousands of tests for every commit automatically.&amp;nbsp; This comes with challenges in speed by reducing compute time from days to a few minutes.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You will be part of the team that builds, maintains, and improves our highly-automated build, release and testing infrastructure.&lt;/li&gt;\n&lt;li&gt;Scripting, tools-building, and automation are paramount to Okta Engineering; everybody automates. You will be creating and coding tools for internal use to support continuous delivery.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Team up with Development, QA and Ops to continuously innovate and enhance our build and automation infrastructure&lt;/li&gt;\n&lt;li&gt;Collaborate with peers and stake-holders to create new tools/process/technology.&amp;nbsp; We use the latest technology from AWS and you can experiment, recommend, and implement new technologies in our build and CI system.&lt;/li&gt;\n&lt;li&gt;Work with internal customers to roll-out projects and process, monitor adoption, collect feedback, and fine-tune the project to respond to internal customers’ needs.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of experience with one or more programming languages including Python, Go, Java, Javascript&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Good understanding of application development, micro services architecture and successful elements of a multi-service ecosystem&lt;/li&gt;\n&lt;li&gt;Ability to coordinate cross-functional work towards task completion.&lt;/li&gt;\n&lt;li&gt;Understanding of Agile methodologies is a plus.&lt;/li&gt;\n&lt;li&gt;Past experience working on AWS or K8S&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Good understanding of virtualization, dynamic provisioning, Docker, AWS and Linux&lt;/li&gt;\n&lt;li&gt;Experience in Kubernetes is a plus&lt;/li&gt;\n&lt;li&gt;B.S. Computer Science or equivalent.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Okta is an Equal Opportunity Employer.&lt;/p&gt;\n&lt;p&gt;L1-Hybrid&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;P22402_3575624&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 44029,
+                "name": "SW - Engineering Services-676",
+                "child_ids": [],
+                "parent_id": 396304
+            }
+        ],
+        "offices": [
+            {
+                "id": 89126,
+                "name": "Bengaluru",
+                "location": null,
+                "child_ids": [],
+                "parent_id": 89122
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null,
+        "source_company": "okta"
+    },
+    {
         "absolute_url": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312",
         "data_compliance": [
             {
@@ -9280,103 +9322,6 @@
             {
                 "id": 69712,
                 "name": "CIAM Devex-680",
-                "child_ids": [],
-                "parent_id": 396304
-            }
-        ],
-        "offices": [
-            {
-                "id": 89126,
-                "name": "Bengaluru",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 89122
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": null,
-        "source_company": "okta"
-    },
-    {
-        "absolute_url": "https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "internal_job_id": 3575624,
-        "location": {
-            "name": "Bengaluru, India"
-        },
-        "metadata": [
-            {
-                "id": 58735330,
-                "name": "Naukri Job URL",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735350,
-                "name": "Naukri Job Error",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735367,
-                "name": "Minimum Salary",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735368,
-                "name": "Maximum Salary",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735384,
-                "name": "City",
-                "value": null,
-                "value_type": "single_select"
-            },
-            {
-                "id": 58735385,
-                "name": "Job Description",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735369,
-                "name": "Minimum Work Experience",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735370,
-                "name": "Maximum Work Experience",
-                "value": null,
-                "value_type": "number"
-            }
-        ],
-        "id": 8263823,
-        "updated_at": "2026-11-16T11:00:55-05:00",
-        "requisition_id": "P22402_3575624",
-        "title": "Senior Software Engineer",
-        "company_name": "Okta",
-        "first_published": "2026-10-29T12:00:21-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;Title of Job: &lt;/strong&gt;Sr&lt;strong&gt;. &lt;/strong&gt;Software Engineer&lt;/h3&gt;\n&lt;p&gt;We are looking for a Senior Software engineer who is passionate about writing the tools to integrate and support to build large-scale, high-demand software in a fast-paced agile environment. You will share our passion for test-driven development, continuous integration and automation to produce frequent high-quality releases.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Our engineering team is fast, innovative and flexible; with a weekly release cycle and individual ownership. We expect great things from our engineers and reward them with stimulating new projects, emerging technologies and the chance to be part of a company that is changing the cloud computing landscape forever.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will get an opportunity to work in scaling our infrastructure to the next generation. Our scale is already huge in running tens of thousands of tests for every commit automatically.&amp;nbsp; This comes with challenges in speed by reducing compute time from days to a few minutes.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You will be part of the team that builds, maintains, and improves our highly-automated build, release and testing infrastructure.&lt;/li&gt;\n&lt;li&gt;Scripting, tools-building, and automation are paramount to Okta Engineering; everybody automates. You will be creating and coding tools for internal use to support continuous delivery.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Team up with Development, QA and Ops to continuously innovate and enhance our build and automation infrastructure&lt;/li&gt;\n&lt;li&gt;Collaborate with peers and stake-holders to create new tools/process/technology.&amp;nbsp; We use the latest technology from AWS and you can experiment, recommend, and implement new technologies in our build and CI system.&lt;/li&gt;\n&lt;li&gt;Work with internal customers to roll-out projects and process, monitor adoption, collect feedback, and fine-tune the project to respond to internal customers’ needs.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of experience with one or more programming languages including Python, Go, Java, Javascript&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Good understanding of application development, micro services architecture and successful elements of a multi-service ecosystem&lt;/li&gt;\n&lt;li&gt;Ability to coordinate cross-functional work towards task completion.&lt;/li&gt;\n&lt;li&gt;Understanding of Agile methodologies is a plus.&lt;/li&gt;\n&lt;li&gt;Past experience working on AWS or K8S&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Good understanding of virtualization, dynamic provisioning, Docker, AWS and Linux&lt;/li&gt;\n&lt;li&gt;Experience in Kubernetes is a plus&lt;/li&gt;\n&lt;li&gt;B.S. Computer Science or equivalent.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Okta is an Equal Opportunity Employer.&lt;/p&gt;\n&lt;p&gt;L1-Hybrid&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;P22402_3575624&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 44029,
-                "name": "SW - Engineering Services-676",
                 "child_ids": [],
                 "parent_id": 396304
             }
@@ -13171,103 +13116,6 @@
         "source_company": "okta"
     },
     {
-        "absolute_url": "https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "internal_job_id": 3431422,
-        "location": {
-            "name": "Bengaluru, India"
-        },
-        "metadata": [
-            {
-                "id": 58735330,
-                "name": "Naukri Job URL",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735350,
-                "name": "Naukri Job Error",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735367,
-                "name": "Minimum Salary",
-                "value": "0.0",
-                "value_type": "number"
-            },
-            {
-                "id": 58735368,
-                "name": "Maximum Salary",
-                "value": "0.0",
-                "value_type": "number"
-            },
-            {
-                "id": 58735384,
-                "name": "City",
-                "value": null,
-                "value_type": "single_select"
-            },
-            {
-                "id": 58735385,
-                "name": "Job Description",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735369,
-                "name": "Minimum Work Experience",
-                "value": "0.0",
-                "value_type": "number"
-            },
-            {
-                "id": 58735370,
-                "name": "Maximum Work Experience",
-                "value": "0.0",
-                "value_type": "number"
-            }
-        ],
-        "id": 7893046,
-        "updated_at": "2026-11-16T11:00:55-05:00",
-        "requisition_id": "P25153_3431422",
-        "title": "Staff Software Engineer",
-        "company_name": "Okta",
-        "first_published": "2026-05-05T08:50:28-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;Required Skills:&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;9+ years in &lt;strong&gt;Python&lt;/strong&gt; and its libraries (e.g., Pandas, Boto3) for data manipulation, ETL processes, and developing serverless functions to interact with foundational AI services on platforms like &lt;strong&gt;AWS Bedrock&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;6+ years with modern front-end frameworks (e.g., React, Next.js, TypeScript), and an ability to collaborate effectively with Product &amp;amp; Design.&lt;/li&gt;\n&lt;li&gt;Deep hands-on experience with &lt;strong&gt;AWS solutioning&lt;/strong&gt;, including designing and deploying production applications using core services such as &lt;strong&gt;AWS EC2, AWS Lambda, Amazon S3, Amazon RDS, and API Gateway&lt;/strong&gt;. Familiarity with Infrastructure as Code (IaC) tools like CloudFormation or Terraform is essential.&lt;/li&gt;\n&lt;li&gt;Proven experience building and deploying production-grade AI applications and services.&lt;/li&gt;\n&lt;li&gt;Experience with agentic frameworks like LangChain, LangGraph, and LangSmith is a strong plus.&lt;/li&gt;\n&lt;li&gt;Strong background in building distributed systems, microservices, and resilient APIs (REST/GraphQL) on cloud platforms (AWS/GCP/Azure).&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to influence technical strategy and lead architecture decisions across global teams.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills with experience working effectively across time zones and cultures.&lt;/li&gt;\n&lt;li&gt;Working experience with foundational AI services, with a desire to use a unified platform like AWS Bedrock for Generative AI development and deployment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Education and Certifications&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A Bachelor’s degree in Computer Science, Information Systems, or equivalent years of industry experience&lt;/li&gt;\n&lt;li&gt;AWS cloud Certification or any ERP foundation certificate is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#P25153_3431422&lt;br&gt;#LI_Hybrid&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 31482,
-                "name": "BT People Legal and Finance Technology-155",
-                "child_ids": [],
-                "parent_id": 30147
-            }
-        ],
-        "offices": [
-            {
-                "id": 89126,
-                "name": "Bengaluru",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 89122
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": null,
-        "source_company": "okta"
-    },
-    {
         "absolute_url": "https://www.okta.com/company/careers/opportunity/8081016?gh_jid=8081016",
         "data_compliance": [
             {
@@ -13348,6 +13196,103 @@
                 "name": "SW Eng - Infrastructure-672",
                 "child_ids": [],
                 "parent_id": 396304
+            }
+        ],
+        "offices": [
+            {
+                "id": 89126,
+                "name": "Bengaluru",
+                "location": null,
+                "child_ids": [],
+                "parent_id": 89122
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null,
+        "source_company": "okta"
+    },
+    {
+        "absolute_url": "https://www.okta.com/company/careers/opportunity/7893046?gh_jid=7893046",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "internal_job_id": 3431422,
+        "location": {
+            "name": "Bengaluru, India"
+        },
+        "metadata": [
+            {
+                "id": 58735330,
+                "name": "Naukri Job URL",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735350,
+                "name": "Naukri Job Error",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735367,
+                "name": "Minimum Salary",
+                "value": "0.0",
+                "value_type": "number"
+            },
+            {
+                "id": 58735368,
+                "name": "Maximum Salary",
+                "value": "0.0",
+                "value_type": "number"
+            },
+            {
+                "id": 58735384,
+                "name": "City",
+                "value": null,
+                "value_type": "single_select"
+            },
+            {
+                "id": 58735385,
+                "name": "Job Description",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735369,
+                "name": "Minimum Work Experience",
+                "value": "0.0",
+                "value_type": "number"
+            },
+            {
+                "id": 58735370,
+                "name": "Maximum Work Experience",
+                "value": "0.0",
+                "value_type": "number"
+            }
+        ],
+        "id": 7893046,
+        "updated_at": "2026-11-16T11:00:55-05:00",
+        "requisition_id": "P25153_3431422",
+        "title": "Staff Software Engineer",
+        "company_name": "Okta",
+        "first_published": "2026-05-05T08:50:28-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;Required Skills:&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;9+ years in &lt;strong&gt;Python&lt;/strong&gt; and its libraries (e.g., Pandas, Boto3) for data manipulation, ETL processes, and developing serverless functions to interact with foundational AI services on platforms like &lt;strong&gt;AWS Bedrock&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;6+ years with modern front-end frameworks (e.g., React, Next.js, TypeScript), and an ability to collaborate effectively with Product &amp;amp; Design.&lt;/li&gt;\n&lt;li&gt;Deep hands-on experience with &lt;strong&gt;AWS solutioning&lt;/strong&gt;, including designing and deploying production applications using core services such as &lt;strong&gt;AWS EC2, AWS Lambda, Amazon S3, Amazon RDS, and API Gateway&lt;/strong&gt;. Familiarity with Infrastructure as Code (IaC) tools like CloudFormation or Terraform is essential.&lt;/li&gt;\n&lt;li&gt;Proven experience building and deploying production-grade AI applications and services.&lt;/li&gt;\n&lt;li&gt;Experience with agentic frameworks like LangChain, LangGraph, and LangSmith is a strong plus.&lt;/li&gt;\n&lt;li&gt;Strong background in building distributed systems, microservices, and resilient APIs (REST/GraphQL) on cloud platforms (AWS/GCP/Azure).&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to influence technical strategy and lead architecture decisions across global teams.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills with experience working effectively across time zones and cultures.&lt;/li&gt;\n&lt;li&gt;Working experience with foundational AI services, with a desire to use a unified platform like AWS Bedrock for Generative AI development and deployment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Education and Certifications&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A Bachelor’s degree in Computer Science, Information Systems, or equivalent years of industry experience&lt;/li&gt;\n&lt;li&gt;AWS cloud Certification or any ERP foundation certificate is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#P25153_3431422&lt;br&gt;#LI_Hybrid&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 31482,
+                "name": "BT People Legal and Finance Technology-155",
+                "child_ids": [],
+                "parent_id": 30147
             }
         ],
         "offices": [
@@ -13753,103 +13698,6 @@
         "source_company": "okta"
     },
     {
-        "absolute_url": "https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "internal_job_id": 3564223,
-        "location": {
-            "name": "Bengaluru, India"
-        },
-        "metadata": [
-            {
-                "id": 58735330,
-                "name": "Naukri Job URL",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735350,
-                "name": "Naukri Job Error",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735367,
-                "name": "Minimum Salary",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735368,
-                "name": "Maximum Salary",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735384,
-                "name": "City",
-                "value": null,
-                "value_type": "single_select"
-            },
-            {
-                "id": 58735385,
-                "name": "Job Description",
-                "value": null,
-                "value_type": "long_text"
-            },
-            {
-                "id": 58735369,
-                "name": "Minimum Work Experience",
-                "value": null,
-                "value_type": "number"
-            },
-            {
-                "id": 58735370,
-                "name": "Maximum Work Experience",
-                "value": null,
-                "value_type": "number"
-            }
-        ],
-        "id": 8236508,
-        "updated_at": "2026-11-16T11:00:55-05:00",
-        "requisition_id": "P25923_3564223",
-        "title": "Staff Software Engineer - Full Stack",
-        "company_name": "Okta",
-        "first_published": "2026-10-07T22:57:59-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Staff Software Engineer - Full Stack&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Position Description:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;We are seeking an experienced Staff Engineer to provide technical leadership for the Advanced Integration Builder team within Okta. This team builds and maintains the backend services, provisioning frameworks, authentication connectors, and next-generation Entitlement Management engines that let Okta customers secure, integrate, and govern access to thousands of third-party enterprise applications — from modern cloud platforms (Microsoft Office 365, Workday, Salesforce, AWS, ServiceNow) and AI agentic systems to legacy on-prem systems . As a Staff Engineer, you will set technical direction across multiple integrations and the shared frameworks they depend on, resolve the hardest cross-app reliability and architecture problems — rate limiting at scale, backward compatibility — and raise the engineering bar for the team. This is a backend-intensive role centered on distributed systems, API client architecture, and operational excellence at scale. Day-to-day frontend involvement is still light relative to backend work, but you&#39;ll need decent React and JSP experience to guide and occasionally hand-build the new feature requests.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Job Duties and Responsibilities:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;- Technical Leadership: Independently drive the design and execution of complex, ambiguous initiatives spanning multiple app integrations or shared frameworks used across dozens of connectors.&lt;br&gt;- Architecture &amp;amp; Design: Lead technical design discussions for new integration patterns and shared abstractions; identify opportunities to consolidate duplicated per-app logic (REST/SOAP clients, exception handling, OAuth utilities) into reusable frameworks, reducing long-term maintenance burden across the integration portfolio.&lt;br&gt;- Scale &amp;amp; Reliability: Solve systemic reliability problems — rate-limit handling, pagination/throttling abstractions, multi-tenant and compliance-variant support — that affect many integrations simultaneously, not just a single app.&lt;br&gt;- Operational Excellence: Act as a guardian-level responder for integration-pipeline incidents; drive root-cause analysis and remediation for systemic issues; lead operational improvement projects (observability, alerting, on-call runbooks) across the team&#39;s full integration portfolio.&lt;br&gt;- Technical Risk Management: Identify and mitigate technical risk in the team&#39;s roadmap — vendor API deprecations, backward-compatibility obligations across dozens of live integrations, and legacy protocol support .&lt;br&gt;- Cross-Functional Ownership: Partner with PMs, support, security, and other engineering teams to prioritize, influence product direction for the integration catalog, and own outcomes beyond code — including research and recommendations on build-vs-buy or deprecation decisions.&lt;br&gt;- Code Quality &amp;amp; Technical Standards: Set the bar for code review, testing rigor (unit, API/mock-server, and nightly functional tests against third-party endpoints), and documentation across the team.&lt;br&gt;- Mentorship &amp;amp; Team Growth: Mentor engineers at all levels, unblock teammates on complex integration and distributed-systems problems, and contribute meaningfully to hiring and interview loops.&lt;br&gt;- Engineering Culture: Champion engineering best practices internally&lt;br&gt;&lt;br&gt;&lt;strong&gt;Required Knowledge, Skills, and Abilities:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;- Experience: 8+ years of hands-on experience designing, building, and operating reliable, production-grade backend systems at scale.&lt;br&gt;- Backend Expertise: Deep proficiency in Java and Spring Boot; demonstrated ability to design systems or shared libraries consumed by multiple teams.&lt;br&gt;- Distributed Systems at Scale: Deep experience with asynchronous job processing, event-driven architectures, and designing resilient systems (retry/backoff, rate limiting, circuit breakers) that tolerate dozens of heterogeneous, unreliable third-party dependencies.&lt;br&gt;- Data Management: Strong command of relational databases (MySQL) and caching strategies (Redis or similar) at scale.&lt;br&gt;- API &amp;amp; Framework Design: Experience designing shared libraries/frameworks consumed by multiple teams (e.g., provisioning adapters, client-session abstractions) — not just single-service APIs.&lt;br&gt;- Operational Leadership: Track record of driving incident response, RCAs, and systemic reliability improvements for production systems with many integration points.&lt;br&gt;- Problem Solving &amp;amp; Ownership: Comfortable owning ambiguous, cross-cutting technical problems and driving them to resolution with minimal supervision.&lt;br&gt;- Decent Frontend Experience: While the role is backend-dominant, you should be comfortable building and modifying UI in React and JSP well enough to review/guide frontend changes and step in to build features&lt;br&gt;&lt;br&gt;&lt;strong&gt;Nice to Haves:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;- Deep experience with identity/IAM standards (SCIM, SAML, OAuth, OIDC) or directory services (AD, LDAP) across many simultaneous integrations.&lt;br&gt;- Integration &amp;amp; Auth Protocols: Strong working knowledge of REST/SOAP integration patterns and authentication/federation standards (OAuth2, SAML, WS-Federation), including supporting legacy protocols alongside modern ones.&lt;br&gt;- Experience designing multi-tenant SaaS architectures and/or specialized compliance environments (FedRAMP/GCC-High).&lt;br&gt;- Experience with message brokers/queueing systems (Kafka) for large-scale asynchronous processing.&lt;br&gt;- A track record of leading architectural consolidation efforts (reducing duplicated per-integration code into shared frameworks).&lt;br&gt;&lt;br&gt;&lt;strong&gt;Education:&lt;/strong&gt;&lt;br&gt;B.E./M.S. in Computer Science, Software Engineering, or related field, or equivalent practical experience.&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid&lt;br&gt;P25923_3564223&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 44028,
-                "name": "SW Eng - Applications-674",
-                "child_ids": [],
-                "parent_id": 396304
-            }
-        ],
-        "offices": [
-            {
-                "id": 89126,
-                "name": "Bengaluru",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 89122
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": null,
-        "ai_opt_out_request_url": null,
-        "source_company": "okta"
-    },
-    {
         "absolute_url": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
         "data_compliance": [
             {
@@ -13924,6 +13772,103 @@
         "language": "en",
         "application_deadline": null,
         "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Staff Software Engineer - Full-stack&lt;/strong&gt;&lt;/h1&gt;\n&lt;h3&gt;&lt;strong&gt;Get to Know Okta&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Okta is The World’s Identity Company. We free everyone to safely use any technology—anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital world, putting Identity at the heart of business security and growth.&lt;/p&gt;\n&lt;p&gt;At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box—we are looking for lifelong learners and people who can make us better with their unique experiences and backgrounds.&lt;/p&gt;\n&lt;p&gt;Join our team! We are building a world where Identity belongs to you.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Identity Security Pillar&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Okta&#39;s &lt;strong&gt;Identity Security Pillar&lt;/strong&gt; is at the forefront of defending modern enterprise environments against sophisticated identity-centric attacks. As enterprise attack surfaces expand across clouds, SaaS ecosystems, and hybrid networks, our pillar delivers unified, next-generation security capabilities that protect organizations across the entire threat lifecycle.&lt;/p&gt;\n&lt;p&gt;Joining our pillar gives you the unique opportunity to build and impact diverse, cutting-edge products across the security domain, including:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Identity Security Posture Management (ISPM):&lt;/strong&gt; Delivering continuous, contextual visibility into complex identity infrastructure, surfacing misconfigurations, eliminating toxic combinations of permissions, and reducing overall attack surfaces.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Identity Threat Protection (ITP):&lt;/strong&gt; ITP delivers real-time, surgical defense against the most sophisticated and rapidly evolving threats. By deeply integrating with existing security infrastructure, ITP relentlessly analyzes user behavior and system data to proactively hunt down and neutralize risks before they impact our customers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Identity Threat Detection &amp;amp; Response (ITDR):&lt;/strong&gt; Detecting sophisticated credential compromise, privilege escalation, and lateral movement with speed and automated response capabilities.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;As we expand our engineering footprint in India, you will be a foundational member of a high-impact team driving architectural scale, technical innovation, and product synergy across this critical pillar.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;What You’ll Be Doing&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;As a Staff Software Engineer on the team, you will play a pivotal, hands-on role in scaling our foundational platforms and web applications, with a primary emphasis on backend architecture and distributed services. You will partner closely with distributed teams to deliver robust, high-performance security solutions.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Key Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and build high-quality backend services while collaborating with frontend developers to ensure seamless integration across the stack.&lt;/li&gt;\n&lt;li&gt;Raise the bar on engineering excellence by improving standard methodologies, producing best-in-class code, documentation, testing, and monitoring.&lt;/li&gt;\n&lt;li&gt;Collaborate with product and R&amp;amp;D engineers to translate product requirements into robust technical solutions.&lt;/li&gt;\n&lt;li&gt;Identify and resolve technical issues and performance bottlenecks within the backend systems.&lt;/li&gt;\n&lt;li&gt;Stay up to date with the latest industry trends and technologies to continuously improve our backend services and overall application performance.&lt;/li&gt;\n&lt;li&gt;Be a mentor to colleagues and help promote knowledge sharing within the team.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;What You’ll Bring to the Role&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Experience:&lt;/strong&gt; 8+ years of professional software engineering experience building and maintaining complex, enterprise-grade distributed systems in high-growth environments.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Backend Expertise:&lt;/strong&gt; 6+ years of hands-on experience designing and implementing backend services using &lt;strong&gt;Node.js&lt;/strong&gt; and modern &lt;strong&gt;TypeScript&lt;/strong&gt;.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Frontend Knowledge:&lt;/strong&gt; Proven working familiarity with modern frontend frameworks, specifically &lt;strong&gt;React&lt;/strong&gt;, enabling seamless collaboration and full-stack ownership.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Architectural Mastery:&lt;/strong&gt; Deep knowledge of RESTful API design, microservices architecture, asynchronous event-driven design, and data persistence patterns.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Database &amp;amp; Storage Systems:&lt;/strong&gt; Practical experience working with relational databases as well as NoSQL/caching stores.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;System Principles:&lt;/strong&gt; Strong foundation in computer science fundamentals, data structures, algorithms, and scalable software design patterns.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Collaboration &amp;amp; Mindset:&lt;/strong&gt; Excellent analytical and problem-solving skills, paired with strong communication abilities to collaborate across distributed, global engineering teams.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Education:&lt;/strong&gt; Bachelor’s or Master’s degree in Computer Science, Engineering, or a related technical discipline (or equivalent practical experience).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;Extra Credit: If You Have Experience In&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Frameworks such as &lt;strong&gt;NestJS&lt;/strong&gt; or similar enterprise-grade Node.js server frameworks.&lt;/li&gt;\n&lt;li&gt;Modern cloud platforms (particularly &lt;strong&gt;AWS&lt;/strong&gt;) and container orchestration.&lt;/li&gt;\n&lt;li&gt;Identity and security domains (IAM, OAuth, OIDC, SAML, posture management, threat detection, or cloud security).&lt;br&gt;&lt;br&gt;#LI-Hybrid&lt;br&gt;P25712_3566359&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 44028,
+                "name": "SW Eng - Applications-674",
+                "child_ids": [],
+                "parent_id": 396304
+            }
+        ],
+        "offices": [
+            {
+                "id": 89126,
+                "name": "Bengaluru",
+                "location": null,
+                "child_ids": [],
+                "parent_id": 89122
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null,
+        "source_company": "okta"
+    },
+    {
+        "absolute_url": "https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "internal_job_id": 3564223,
+        "location": {
+            "name": "Bengaluru, India"
+        },
+        "metadata": [
+            {
+                "id": 58735330,
+                "name": "Naukri Job URL",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735350,
+                "name": "Naukri Job Error",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735367,
+                "name": "Minimum Salary",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735368,
+                "name": "Maximum Salary",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735384,
+                "name": "City",
+                "value": null,
+                "value_type": "single_select"
+            },
+            {
+                "id": 58735385,
+                "name": "Job Description",
+                "value": null,
+                "value_type": "long_text"
+            },
+            {
+                "id": 58735369,
+                "name": "Minimum Work Experience",
+                "value": null,
+                "value_type": "number"
+            },
+            {
+                "id": 58735370,
+                "name": "Maximum Work Experience",
+                "value": null,
+                "value_type": "number"
+            }
+        ],
+        "id": 8236508,
+        "updated_at": "2026-11-16T11:00:55-05:00",
+        "requisition_id": "P25923_3564223",
+        "title": "Staff Software Engineer - Full Stack",
+        "company_name": "Okta",
+        "first_published": "2026-10-07T22:57:59-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Secure Every Identity, from AI to Human&lt;br&gt;&lt;br&gt;&lt;/strong&gt;Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.&lt;br&gt;&lt;br&gt;This is an opportunity to do career-defining work. We&#39;re all in on this mission. If you are too, let&#39;s talk.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Staff Software Engineer - Full Stack&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Position Description:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;We are seeking an experienced Staff Engineer to provide technical leadership for the Advanced Integration Builder team within Okta. This team builds and maintains the backend services, provisioning frameworks, authentication connectors, and next-generation Entitlement Management engines that let Okta customers secure, integrate, and govern access to thousands of third-party enterprise applications — from modern cloud platforms (Microsoft Office 365, Workday, Salesforce, AWS, ServiceNow) and AI agentic systems to legacy on-prem systems . As a Staff Engineer, you will set technical direction across multiple integrations and the shared frameworks they depend on, resolve the hardest cross-app reliability and architecture problems — rate limiting at scale, backward compatibility — and raise the engineering bar for the team. This is a backend-intensive role centered on distributed systems, API client architecture, and operational excellence at scale. Day-to-day frontend involvement is still light relative to backend work, but you&#39;ll need decent React and JSP experience to guide and occasionally hand-build the new feature requests.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Job Duties and Responsibilities:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;- Technical Leadership: Independently drive the design and execution of complex, ambiguous initiatives spanning multiple app integrations or shared frameworks used across dozens of connectors.&lt;br&gt;- Architecture &amp;amp; Design: Lead technical design discussions for new integration patterns and shared abstractions; identify opportunities to consolidate duplicated per-app logic (REST/SOAP clients, exception handling, OAuth utilities) into reusable frameworks, reducing long-term maintenance burden across the integration portfolio.&lt;br&gt;- Scale &amp;amp; Reliability: Solve systemic reliability problems — rate-limit handling, pagination/throttling abstractions, multi-tenant and compliance-variant support — that affect many integrations simultaneously, not just a single app.&lt;br&gt;- Operational Excellence: Act as a guardian-level responder for integration-pipeline incidents; drive root-cause analysis and remediation for systemic issues; lead operational improvement projects (observability, alerting, on-call runbooks) across the team&#39;s full integration portfolio.&lt;br&gt;- Technical Risk Management: Identify and mitigate technical risk in the team&#39;s roadmap — vendor API deprecations, backward-compatibility obligations across dozens of live integrations, and legacy protocol support .&lt;br&gt;- Cross-Functional Ownership: Partner with PMs, support, security, and other engineering teams to prioritize, influence product direction for the integration catalog, and own outcomes beyond code — including research and recommendations on build-vs-buy or deprecation decisions.&lt;br&gt;- Code Quality &amp;amp; Technical Standards: Set the bar for code review, testing rigor (unit, API/mock-server, and nightly functional tests against third-party endpoints), and documentation across the team.&lt;br&gt;- Mentorship &amp;amp; Team Growth: Mentor engineers at all levels, unblock teammates on complex integration and distributed-systems problems, and contribute meaningfully to hiring and interview loops.&lt;br&gt;- Engineering Culture: Champion engineering best practices internally&lt;br&gt;&lt;br&gt;&lt;strong&gt;Required Knowledge, Skills, and Abilities:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;- Experience: 8+ years of hands-on experience designing, building, and operating reliable, production-grade backend systems at scale.&lt;br&gt;- Backend Expertise: Deep proficiency in Java and Spring Boot; demonstrated ability to design systems or shared libraries consumed by multiple teams.&lt;br&gt;- Distributed Systems at Scale: Deep experience with asynchronous job processing, event-driven architectures, and designing resilient systems (retry/backoff, rate limiting, circuit breakers) that tolerate dozens of heterogeneous, unreliable third-party dependencies.&lt;br&gt;- Data Management: Strong command of relational databases (MySQL) and caching strategies (Redis or similar) at scale.&lt;br&gt;- API &amp;amp; Framework Design: Experience designing shared libraries/frameworks consumed by multiple teams (e.g., provisioning adapters, client-session abstractions) — not just single-service APIs.&lt;br&gt;- Operational Leadership: Track record of driving incident response, RCAs, and systemic reliability improvements for production systems with many integration points.&lt;br&gt;- Problem Solving &amp;amp; Ownership: Comfortable owning ambiguous, cross-cutting technical problems and driving them to resolution with minimal supervision.&lt;br&gt;- Decent Frontend Experience: While the role is backend-dominant, you should be comfortable building and modifying UI in React and JSP well enough to review/guide frontend changes and step in to build features&lt;br&gt;&lt;br&gt;&lt;strong&gt;Nice to Haves:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;- Deep experience with identity/IAM standards (SCIM, SAML, OAuth, OIDC) or directory services (AD, LDAP) across many simultaneous integrations.&lt;br&gt;- Integration &amp;amp; Auth Protocols: Strong working knowledge of REST/SOAP integration patterns and authentication/federation standards (OAuth2, SAML, WS-Federation), including supporting legacy protocols alongside modern ones.&lt;br&gt;- Experience designing multi-tenant SaaS architectures and/or specialized compliance environments (FedRAMP/GCC-High).&lt;br&gt;- Experience with message brokers/queueing systems (Kafka) for large-scale asynchronous processing.&lt;br&gt;- A track record of leading architectural consolidation efforts (reducing duplicated per-integration code into shared frameworks).&lt;br&gt;&lt;br&gt;&lt;strong&gt;Education:&lt;/strong&gt;&lt;br&gt;B.E./M.S. in Computer Science, Software Engineering, or related field, or equivalent practical experience.&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid&lt;br&gt;P25923_3564223&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;The Okta Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=&quot;http://rewards.okta.com&quot;&gt;Supporting Your Well-Being&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/okta-for-good/&quot;&gt;Driving Social Impact&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=&quot;https://www.okta.com/company/talent-connection-community/&quot;&gt;Developing Talent and Fostering Connection + Community&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.&lt;br&gt;&lt;br&gt;Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.&lt;br&gt;&lt;br&gt;If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&amp;nbsp;&lt;a href=&quot;https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit&quot;&gt;use this Form&lt;/a&gt; to request an accommodation.&lt;br&gt;&lt;br&gt;Notice for New York City Applicants &amp;amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&amp;nbsp;&lt;a href=&quot;https://talent.okta.com/new-york-city-aedt-notice.html&quot;&gt;click here&lt;/a&gt; to view our full NYC AEDT Notice.&lt;/p&gt;&lt;/div&gt;",
         "departments": [
             {
                 "id": 44028,
@@ -16316,118 +16261,6 @@
         "source_company": "purestorage"
     },
     {
-        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8207255",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "education": "education_optional",
-        "internal_job_id": 3552159,
-        "location": {
-            "name": "Bangalore, India"
-        },
-        "metadata": [
-            {
-                "id": 37087123,
-                "name": "Cost Center",
-                "value": "41200 Systems Eng APJ",
-                "value_type": "single_select"
-            }
-        ],
-        "id": 8207255,
-        "updated_at": "2026-11-01T03:54:00-05:00",
-        "requisition_id": "18779",
-        "title": "Member of Technical Staff, Kernel",
-        "company_name": "Everpure",
-        "first_published": "2026-09-28T01:33:51-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Team lead for a group of engineers with responsibility for Linux and VMWare initiator stack behavior as well as Fibre Channel and NIC drivers on Pure storage array.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Kernel and Driver development team is responsible for several areas&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Working for a team that deals primarily in various storage area network protocols such as Fiber Channel and Ethernet.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;On the initiator side, the team will be responsible for Linux initiator behavior attached to Flasharray. Focus is on NVME (ROCE, FC, TCP/IP) but also includes FC-SCSI (FCP) and iSCSI interfaces. This includes software development/fixes for Linux initiator stack, debugging initiator problems, and creating compatibility documents for Purity. For VMWare, focus is on debugging issues with VMWare as an initiator, and creating compatibility documentation.&lt;/li&gt;\n&lt;li&gt;For FibreChannel and NIC Drivers, focus is responsibility for FC-SCSI driver stack for storage side and responsibility for NIC drivers on networking side. This includes responsibility for related code, utilities, enhancements supporting RAS, as well as debugging failures found internally and in the field.&lt;/li&gt;\n&lt;li&gt;Maintain Linux kernels for internal testing&lt;/li&gt;\n&lt;li&gt;Documenting supported configurations for customers&lt;/li&gt;\n&lt;li&gt;Responsibility for evaluating Linux initiator behavior and optimizing for Pure Storage Flasharray. This includes correctness as well as optimizing for performances. Will contribute bug fixes and enhancements to Linux upstream. Analyze and debug difficult Linux bugs to optimize Flasharray attachment.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining Purity’s Fibre Channel SCSI (FCP) target driver. Maintenance includes driver updates for enhancements, bugs fixes and new hardware.&lt;/li&gt;\n&lt;li&gt;Resolve difficult Fibre Channel bugs found internally or externally and enhancing the resilience of Pure’s FC stack. This includes projects around multipathing and link health.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining NIC drivers on Pure’s storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Dealing with middle ware C++ modules&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong experience writing device drivers and/or kernel development for Linux/Unix. Prefer experience in storage and/or networking drivers&lt;/li&gt;\n&lt;li&gt;Minimum 2 years of development experience.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience designing and implementing significant components in storage protocol stacks and storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience with storage protocols: either SCSI (FC-SCSI or iSCSI/FCP) and/or NVME Fabrics (NVME/ROCE, NVME/TCP or NVME/FC)&amp;nbsp; will be an advantage.&lt;/li&gt;\n&lt;li&gt;Experience leading other engineers technically. Should be able to mentor more junior engineers and lead other engineers in an overall project.&amp;nbsp; Should demonstrate on time delivery with high quality.&lt;/li&gt;\n&lt;li&gt;Experience with performance analysis/optimization for storage systems or protocols&lt;/li&gt;\n&lt;li&gt;Should have VMWare experience, with understanding of their initiator stack.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing Linux storage device drivers, including some sets of Fibre Channel, NVME, ROCE, block and multipath modules.&lt;/li&gt;\n&lt;li&gt;Experience debugging difficult storage attach issues.&lt;/li&gt;\n&lt;li&gt;Experience with software development using C and C++, along with Python&lt;/li&gt;\n&lt;li&gt;Experience upstreaming Linux code is preferred&lt;/li&gt;\n&lt;li&gt;Should have experience developing test automation&lt;/li&gt;\n&lt;li&gt;Experience analyzing and optimizing storage performance&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing storage or networking device drivers, preferred in Linux/Unix environment&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated experience debugging difficult protocol/kernel/system issues&lt;/li&gt;\n&lt;li&gt;Experience with network protocols, including TCP/IP.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 301,
-                "name": "Engineering",
-                "child_ids": [],
-                "parent_id": null
-            }
-        ],
-        "offices": [
-            {
-                "id": 343409,
-                "name": "Office - India (Bangalore - Prestige Dynasty Phase 2)",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 43857
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": false,
-        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8207255/ai_opt_out",
-        "source_company": "purestorage"
-    },
-    {
-        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8207176",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "education": "education_optional",
-        "internal_job_id": 3552114,
-        "location": {
-            "name": "Bangalore, India"
-        },
-        "metadata": [
-            {
-                "id": 37087123,
-                "name": "Cost Center",
-                "value": "41200 Systems Eng APJ",
-                "value_type": "single_select"
-            }
-        ],
-        "id": 8207176,
-        "updated_at": "2026-11-01T03:54:00-05:00",
-        "requisition_id": "18777",
-        "title": "Member of Technical Staff, Kernel",
-        "company_name": "Everpure",
-        "first_published": "2026-09-28T01:37:47-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Team lead for a group of engineers with responsibility for Linux and VMWare initiator stack behavior as well as Fibre Channel and NIC drivers on Pure storage array.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Kernel and Driver development team is responsible for several areas&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Working for a team that deals primarily in various storage area network protocols such as Fiber Channel and Ethernet.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;On the initiator side, the team will be responsible for Linux initiator behavior attached to Flasharray. Focus is on NVME (ROCE, FC, TCP/IP) but also includes FC-SCSI (FCP) and iSCSI interfaces. This includes software development/fixes for Linux initiator stack, debugging initiator problems, and creating compatibility documents for Purity. For VMWare, focus is on debugging issues with VMWare as an initiator, and creating compatibility documentation.&lt;/li&gt;\n&lt;li&gt;For FibreChannel and NIC Drivers, focus is responsibility for FC-SCSI driver stack for storage side and responsibility for NIC drivers on networking side. This includes responsibility for related code, utilities, enhancements supporting RAS, as well as debugging failures found internally and in the field.&lt;/li&gt;\n&lt;li&gt;Maintain Linux kernels for internal testing&lt;/li&gt;\n&lt;li&gt;Documenting supported configurations for customers&lt;/li&gt;\n&lt;li&gt;Responsibility for evaluating Linux initiator behavior and optimizing for Pure Storage Flasharray. This includes correctness as well as optimizing for performances. Will contribute bug fixes and enhancements to Linux upstream. Analyze and debug difficult Linux bugs to optimize Flasharray attachment.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining Purity’s Fibre Channel SCSI (FCP) target driver. Maintenance includes driver updates for enhancements, bugs fixes and new hardware.&lt;/li&gt;\n&lt;li&gt;Resolve difficult Fibre Channel bugs found internally or externally and enhancing the resilience of Pure’s FC stack. This includes projects around multipathing and link health.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining NIC drivers on Pure’s storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Dealing with middle ware C++ modules&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong experience writing device drivers and/or kernel development for Linux/Unix. Prefer experience in storage and/or networking drivers&lt;/li&gt;\n&lt;li&gt;Minimum 3 years of development experience, but expect that typically candidates would have 8+ years experience.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience designing and implementing significant components in storage protocol stacks and storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience with storage protocols: either SCSI (FC-SCSI or iSCSI/FCP) and/or NVME Fabrics (NVME/ROCE, NVME/TCP or NVME/FC)&amp;nbsp; will be an advantage.&lt;/li&gt;\n&lt;li&gt;Experience leading other engineers technically. Should be able to mentor more junior engineers and lead other engineers in an overall project.&amp;nbsp; Should demonstrate on time delivery with high quality.&lt;/li&gt;\n&lt;li&gt;Experience with performance analysis/optimization for storage systems or protocols&lt;/li&gt;\n&lt;li&gt;Should have VMWare experience, with understanding of their initiator stack.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing Linux storage device drivers, including some sets of Fibre Channel, NVME, ROCE, block and multipath modules.&lt;/li&gt;\n&lt;li&gt;Experience debugging difficult storage attach issues.&lt;/li&gt;\n&lt;li&gt;Experience with software development using C and C++, along with Python&lt;/li&gt;\n&lt;li&gt;Experience upstreaming Linux code is preferred&lt;/li&gt;\n&lt;li&gt;Should have experience developing test automation&lt;/li&gt;\n&lt;li&gt;Experience analyzing and optimizing storage performance&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing storage or networking device drivers, preferred in Linux/Unix environment&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated experience debugging difficult protocol/kernel/system issues&lt;/li&gt;\n&lt;li&gt;Experience with network protocols, including TCP/IP.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 301,
-                "name": "Engineering",
-                "child_ids": [],
-                "parent_id": null
-            }
-        ],
-        "offices": [
-            {
-                "id": 343409,
-                "name": "Office - India (Bangalore - Prestige Dynasty Phase 2)",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 43857
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": false,
-        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8207176/ai_opt_out",
-        "source_company": "purestorage"
-    },
-    {
         "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8266627",
         "data_compliance": [
             {
@@ -16484,6 +16317,62 @@
         "source_company": "purestorage"
     },
     {
+        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8207255",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "education": "education_optional",
+        "internal_job_id": 3552159,
+        "location": {
+            "name": "Bangalore, India"
+        },
+        "metadata": [
+            {
+                "id": 37087123,
+                "name": "Cost Center",
+                "value": "41200 Systems Eng APJ",
+                "value_type": "single_select"
+            }
+        ],
+        "id": 8207255,
+        "updated_at": "2026-11-01T03:54:00-05:00",
+        "requisition_id": "18779",
+        "title": "Member of Technical Staff, Kernel",
+        "company_name": "Everpure",
+        "first_published": "2026-09-28T01:33:51-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Team lead for a group of engineers with responsibility for Linux and VMWare initiator stack behavior as well as Fibre Channel and NIC drivers on Pure storage array.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Kernel and Driver development team is responsible for several areas&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Working for a team that deals primarily in various storage area network protocols such as Fiber Channel and Ethernet.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;On the initiator side, the team will be responsible for Linux initiator behavior attached to Flasharray. Focus is on NVME (ROCE, FC, TCP/IP) but also includes FC-SCSI (FCP) and iSCSI interfaces. This includes software development/fixes for Linux initiator stack, debugging initiator problems, and creating compatibility documents for Purity. For VMWare, focus is on debugging issues with VMWare as an initiator, and creating compatibility documentation.&lt;/li&gt;\n&lt;li&gt;For FibreChannel and NIC Drivers, focus is responsibility for FC-SCSI driver stack for storage side and responsibility for NIC drivers on networking side. This includes responsibility for related code, utilities, enhancements supporting RAS, as well as debugging failures found internally and in the field.&lt;/li&gt;\n&lt;li&gt;Maintain Linux kernels for internal testing&lt;/li&gt;\n&lt;li&gt;Documenting supported configurations for customers&lt;/li&gt;\n&lt;li&gt;Responsibility for evaluating Linux initiator behavior and optimizing for Pure Storage Flasharray. This includes correctness as well as optimizing for performances. Will contribute bug fixes and enhancements to Linux upstream. Analyze and debug difficult Linux bugs to optimize Flasharray attachment.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining Purity’s Fibre Channel SCSI (FCP) target driver. Maintenance includes driver updates for enhancements, bugs fixes and new hardware.&lt;/li&gt;\n&lt;li&gt;Resolve difficult Fibre Channel bugs found internally or externally and enhancing the resilience of Pure’s FC stack. This includes projects around multipathing and link health.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining NIC drivers on Pure’s storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Dealing with middle ware C++ modules&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong experience writing device drivers and/or kernel development for Linux/Unix. Prefer experience in storage and/or networking drivers&lt;/li&gt;\n&lt;li&gt;Minimum 2 years of development experience.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience designing and implementing significant components in storage protocol stacks and storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience with storage protocols: either SCSI (FC-SCSI or iSCSI/FCP) and/or NVME Fabrics (NVME/ROCE, NVME/TCP or NVME/FC)&amp;nbsp; will be an advantage.&lt;/li&gt;\n&lt;li&gt;Experience leading other engineers technically. Should be able to mentor more junior engineers and lead other engineers in an overall project.&amp;nbsp; Should demonstrate on time delivery with high quality.&lt;/li&gt;\n&lt;li&gt;Experience with performance analysis/optimization for storage systems or protocols&lt;/li&gt;\n&lt;li&gt;Should have VMWare experience, with understanding of their initiator stack.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing Linux storage device drivers, including some sets of Fibre Channel, NVME, ROCE, block and multipath modules.&lt;/li&gt;\n&lt;li&gt;Experience debugging difficult storage attach issues.&lt;/li&gt;\n&lt;li&gt;Experience with software development using C and C++, along with Python&lt;/li&gt;\n&lt;li&gt;Experience upstreaming Linux code is preferred&lt;/li&gt;\n&lt;li&gt;Should have experience developing test automation&lt;/li&gt;\n&lt;li&gt;Experience analyzing and optimizing storage performance&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing storage or networking device drivers, preferred in Linux/Unix environment&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated experience debugging difficult protocol/kernel/system issues&lt;/li&gt;\n&lt;li&gt;Experience with network protocols, including TCP/IP.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 301,
+                "name": "Engineering",
+                "child_ids": [],
+                "parent_id": null
+            }
+        ],
+        "offices": [
+            {
+                "id": 343409,
+                "name": "Office - India (Bangalore - Prestige Dynasty Phase 2)",
+                "location": null,
+                "child_ids": [],
+                "parent_id": 43857
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": false,
+        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8207255/ai_opt_out",
+        "source_company": "purestorage"
+    },
+    {
         "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8207184",
         "data_compliance": [
             {
@@ -16537,6 +16426,62 @@
         "ai_disclaimer": null,
         "include_ai_disclaimer": false,
         "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8207184/ai_opt_out",
+        "source_company": "purestorage"
+    },
+    {
+        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8207176",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "education": "education_optional",
+        "internal_job_id": 3552114,
+        "location": {
+            "name": "Bangalore, India"
+        },
+        "metadata": [
+            {
+                "id": 37087123,
+                "name": "Cost Center",
+                "value": "41200 Systems Eng APJ",
+                "value_type": "single_select"
+            }
+        ],
+        "id": 8207176,
+        "updated_at": "2026-11-01T03:54:00-05:00",
+        "requisition_id": "18777",
+        "title": "Member of Technical Staff, Kernel",
+        "company_name": "Everpure",
+        "first_published": "2026-09-28T01:37:47-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Team lead for a group of engineers with responsibility for Linux and VMWare initiator stack behavior as well as Fibre Channel and NIC drivers on Pure storage array.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Kernel and Driver development team is responsible for several areas&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Working for a team that deals primarily in various storage area network protocols such as Fiber Channel and Ethernet.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;On the initiator side, the team will be responsible for Linux initiator behavior attached to Flasharray. Focus is on NVME (ROCE, FC, TCP/IP) but also includes FC-SCSI (FCP) and iSCSI interfaces. This includes software development/fixes for Linux initiator stack, debugging initiator problems, and creating compatibility documents for Purity. For VMWare, focus is on debugging issues with VMWare as an initiator, and creating compatibility documentation.&lt;/li&gt;\n&lt;li&gt;For FibreChannel and NIC Drivers, focus is responsibility for FC-SCSI driver stack for storage side and responsibility for NIC drivers on networking side. This includes responsibility for related code, utilities, enhancements supporting RAS, as well as debugging failures found internally and in the field.&lt;/li&gt;\n&lt;li&gt;Maintain Linux kernels for internal testing&lt;/li&gt;\n&lt;li&gt;Documenting supported configurations for customers&lt;/li&gt;\n&lt;li&gt;Responsibility for evaluating Linux initiator behavior and optimizing for Pure Storage Flasharray. This includes correctness as well as optimizing for performances. Will contribute bug fixes and enhancements to Linux upstream. Analyze and debug difficult Linux bugs to optimize Flasharray attachment.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining Purity’s Fibre Channel SCSI (FCP) target driver. Maintenance includes driver updates for enhancements, bugs fixes and new hardware.&lt;/li&gt;\n&lt;li&gt;Resolve difficult Fibre Channel bugs found internally or externally and enhancing the resilience of Pure’s FC stack. This includes projects around multipathing and link health.&lt;/li&gt;\n&lt;li&gt;Responsible for maintaining NIC drivers on Pure’s storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Dealing with middle ware C++ modules&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong experience writing device drivers and/or kernel development for Linux/Unix. Prefer experience in storage and/or networking drivers&lt;/li&gt;\n&lt;li&gt;Minimum 3 years of development experience, but expect that typically candidates would have 8+ years experience.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience designing and implementing significant components in storage protocol stacks and storage systems.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience with storage protocols: either SCSI (FC-SCSI or iSCSI/FCP) and/or NVME Fabrics (NVME/ROCE, NVME/TCP or NVME/FC)&amp;nbsp; will be an advantage.&lt;/li&gt;\n&lt;li&gt;Experience leading other engineers technically. Should be able to mentor more junior engineers and lead other engineers in an overall project.&amp;nbsp; Should demonstrate on time delivery with high quality.&lt;/li&gt;\n&lt;li&gt;Experience with performance analysis/optimization for storage systems or protocols&lt;/li&gt;\n&lt;li&gt;Should have VMWare experience, with understanding of their initiator stack.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing Linux storage device drivers, including some sets of Fibre Channel, NVME, ROCE, block and multipath modules.&lt;/li&gt;\n&lt;li&gt;Experience debugging difficult storage attach issues.&lt;/li&gt;\n&lt;li&gt;Experience with software development using C and C++, along with Python&lt;/li&gt;\n&lt;li&gt;Experience upstreaming Linux code is preferred&lt;/li&gt;\n&lt;li&gt;Should have experience developing test automation&lt;/li&gt;\n&lt;li&gt;Experience analyzing and optimizing storage performance&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience writing storage or networking device drivers, preferred in Linux/Unix environment&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated experience debugging difficult protocol/kernel/system issues&lt;/li&gt;\n&lt;li&gt;Experience with network protocols, including TCP/IP.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 301,
+                "name": "Engineering",
+                "child_ids": [],
+                "parent_id": null
+            }
+        ],
+        "offices": [
+            {
+                "id": 343409,
+                "name": "Office - India (Bangalore - Prestige Dynasty Phase 2)",
+                "location": null,
+                "child_ids": [],
+                "parent_id": 43857
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": false,
+        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8207176/ai_opt_out",
         "source_company": "purestorage"
     },
     {
@@ -16932,62 +16877,6 @@
         "source_company": "purestorage"
     },
     {
-        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8131772",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "education": "education_optional",
-        "internal_job_id": 3521183,
-        "location": {
-            "name": "Bangalore, India"
-        },
-        "metadata": [
-            {
-                "id": 37087123,
-                "name": "Cost Center",
-                "value": "42530 EXA APJ",
-                "value_type": "single_select"
-            }
-        ],
-        "id": 8131772,
-        "updated_at": "2026-11-01T03:54:00-05:00",
-        "requisition_id": "18456",
-        "title": "MTS-Exa",
-        "company_name": "Everpure",
-        "first_published": "2026-08-24T05:21:06-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;model-response-message-contentr_eede7a5a4ef5c9dd&quot; class=&quot;markdown markdown-main-panel md-content enable-luminous-fast-follows enable-updated-hr-color stronger tutor-markdown-rendering&quot;&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;0&quot; data-index-in-node=&quot;0&quot;&gt;THE ROLE&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;Join the high-growth FlashBlade team as a foundational engineering leader building our next-generation, scale-out all-flash file and object storage platform. In this role, you will architect, design, and deliver high-performance distributed systems optimized for modern, data-intensive workloads like AI, log analytics, and cluster computing. You will own critical technological roadmaps end-to-end, directly influencing our core architecture while mentoring top-tier talent. Partnering closely with Product Management, System Validation, and Customer Support, your mission is to drive scalable innovation that redefines enterprise data storage and delivers six-nines reliability to our global customers.&lt;/div&gt;\n&lt;br&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;1&quot; data-index-in-node=&quot;0&quot;&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/div&gt;\n&lt;br&gt;\n&lt;ul data-path-to-node=&quot;2&quot;&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Drive End-to-End System Architecture:&lt;/strong&gt; Lead the architectural evolution and end-to-end delivery of high-performance, resilient storage systems from initial design concepts to high-quality shipped products.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,1,0&quot; data-index-in-node=&quot;0&quot;&gt;Optimize for Modern Data Workloads:&lt;/strong&gt; Design and implement robust algorithms and concurrent platform solutions engineered for modern data pipelines, AI infrastructure, distributed computing, and enterprise analytics.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,2,0&quot; data-index-in-node=&quot;0&quot;&gt;Resolve Complex System Engineering Challenges:&lt;/strong&gt; Apply deep root-cause analysis and system-level insight to solve multi-threaded, high-concurrency performance and reliability issues across Linux platform internals.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,3,0&quot; data-index-in-node=&quot;0&quot;&gt;Cross-Functional Ownership &amp;amp; Leadership:&lt;/strong&gt; Collaborate across product management, validation, and support teams to align technical roadmaps, establish architectural standards, and drive enterprise product stability.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,4,0&quot; data-index-in-node=&quot;0&quot;&gt;Elevate Engineering Standards:&lt;/strong&gt; Mentor high-performing engineering peers, spearhead architecture forums, and foster a culture of technical excellence, continuous learning, and customer-first impact.&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;3&quot; data-index-in-node=&quot;0&quot;&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/div&gt;\n&lt;br&gt;\n&lt;ul data-path-to-node=&quot;4&quot;&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Core Technical Expertise:&lt;/strong&gt; Deep platform development proficiency in Linux system programming alongside strong hands-on expertise in C, C++, Python, Go, or Java.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,1,0&quot; data-index-in-node=&quot;0&quot;&gt;Advanced Systems Fundamentals:&lt;/strong&gt; Mastery of object-oriented design, data structures, multi-threading, synchronization, concurrent programming, and distributed systems architecture.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,2,0&quot; data-index-in-node=&quot;0&quot;&gt;Domain &amp;amp; Production Insight:&lt;/strong&gt; proven ability to make strategic architectural decisions, design for enterprise-grade high availability, and support complex production deployments.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,3,0&quot; data-index-in-node=&quot;0&quot;&gt;Collaborative Leadership &amp;amp; Communication:&lt;/strong&gt; Exceptional communication skills with a track record of articulating complex system architectures, championing design proposals, and influencing key technical stakeholders.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,4,0&quot; data-index-in-node=&quot;0&quot;&gt;Location:&lt;/strong&gt; We are primarily an in-office environment and therefore, you will be expected to work from the Bangalore office in compliance with Pure’s policies, unless you are on PTO, or work travel, or other approved leave.&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 301,
-                "name": "Engineering",
-                "child_ids": [],
-                "parent_id": null
-            }
-        ],
-        "offices": [
-            {
-                "id": 343409,
-                "name": "Office - India (Bangalore - Prestige Dynasty Phase 2)",
-                "location": null,
-                "child_ids": [],
-                "parent_id": 43857
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": false,
-        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8131772/ai_opt_out",
-        "source_company": "purestorage"
-    },
-    {
         "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8131754",
         "data_compliance": [
             {
@@ -17041,6 +16930,62 @@
         "ai_disclaimer": null,
         "include_ai_disclaimer": false,
         "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8131754/ai_opt_out",
+        "source_company": "purestorage"
+    },
+    {
+        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8131772",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "education": "education_optional",
+        "internal_job_id": 3521183,
+        "location": {
+            "name": "Bangalore, India"
+        },
+        "metadata": [
+            {
+                "id": 37087123,
+                "name": "Cost Center",
+                "value": "42530 EXA APJ",
+                "value_type": "single_select"
+            }
+        ],
+        "id": 8131772,
+        "updated_at": "2026-11-01T03:54:00-05:00",
+        "requisition_id": "18456",
+        "title": "MTS-Exa",
+        "company_name": "Everpure",
+        "first_published": "2026-08-24T05:21:06-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;div id=&quot;model-response-message-contentr_eede7a5a4ef5c9dd&quot; class=&quot;markdown markdown-main-panel md-content enable-luminous-fast-follows enable-updated-hr-color stronger tutor-markdown-rendering&quot;&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;0&quot; data-index-in-node=&quot;0&quot;&gt;THE ROLE&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;Join the high-growth FlashBlade team as a foundational engineering leader building our next-generation, scale-out all-flash file and object storage platform. In this role, you will architect, design, and deliver high-performance distributed systems optimized for modern, data-intensive workloads like AI, log analytics, and cluster computing. You will own critical technological roadmaps end-to-end, directly influencing our core architecture while mentoring top-tier talent. Partnering closely with Product Management, System Validation, and Customer Support, your mission is to drive scalable innovation that redefines enterprise data storage and delivers six-nines reliability to our global customers.&lt;/div&gt;\n&lt;br&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;1&quot; data-index-in-node=&quot;0&quot;&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/div&gt;\n&lt;br&gt;\n&lt;ul data-path-to-node=&quot;2&quot;&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Drive End-to-End System Architecture:&lt;/strong&gt; Lead the architectural evolution and end-to-end delivery of high-performance, resilient storage systems from initial design concepts to high-quality shipped products.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,1,0&quot; data-index-in-node=&quot;0&quot;&gt;Optimize for Modern Data Workloads:&lt;/strong&gt; Design and implement robust algorithms and concurrent platform solutions engineered for modern data pipelines, AI infrastructure, distributed computing, and enterprise analytics.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,2,0&quot; data-index-in-node=&quot;0&quot;&gt;Resolve Complex System Engineering Challenges:&lt;/strong&gt; Apply deep root-cause analysis and system-level insight to solve multi-threaded, high-concurrency performance and reliability issues across Linux platform internals.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,3,0&quot; data-index-in-node=&quot;0&quot;&gt;Cross-Functional Ownership &amp;amp; Leadership:&lt;/strong&gt; Collaborate across product management, validation, and support teams to align technical roadmaps, establish architectural standards, and drive enterprise product stability.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;2,4,0&quot; data-index-in-node=&quot;0&quot;&gt;Elevate Engineering Standards:&lt;/strong&gt; Mentor high-performing engineering peers, spearhead architecture forums, and foster a culture of technical excellence, continuous learning, and customer-first impact.&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;3&quot; data-index-in-node=&quot;0&quot;&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/div&gt;\n&lt;br&gt;\n&lt;ul data-path-to-node=&quot;4&quot;&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,0,0&quot; data-index-in-node=&quot;0&quot;&gt;Core Technical Expertise:&lt;/strong&gt; Deep platform development proficiency in Linux system programming alongside strong hands-on expertise in C, C++, Python, Go, or Java.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,1,0&quot; data-index-in-node=&quot;0&quot;&gt;Advanced Systems Fundamentals:&lt;/strong&gt; Mastery of object-oriented design, data structures, multi-threading, synchronization, concurrent programming, and distributed systems architecture.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,2,0&quot; data-index-in-node=&quot;0&quot;&gt;Domain &amp;amp; Production Insight:&lt;/strong&gt; proven ability to make strategic architectural decisions, design for enterprise-grade high availability, and support complex production deployments.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,3,0&quot; data-index-in-node=&quot;0&quot;&gt;Collaborative Leadership &amp;amp; Communication:&lt;/strong&gt; Exceptional communication skills with a track record of articulating complex system architectures, championing design proposals, and influencing key technical stakeholders.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;&lt;strong data-path-to-node=&quot;4,4,0&quot; data-index-in-node=&quot;0&quot;&gt;Location:&lt;/strong&gt; We are primarily an in-office environment and therefore, you will be expected to work from the Bangalore office in compliance with Pure’s policies, unless you are on PTO, or work travel, or other approved leave.&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 301,
+                "name": "Engineering",
+                "child_ids": [],
+                "parent_id": null
+            }
+        ],
+        "offices": [
+            {
+                "id": 343409,
+                "name": "Office - India (Bangalore - Prestige Dynasty Phase 2)",
+                "location": null,
+                "child_ids": [],
+                "parent_id": 43857
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": false,
+        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8131772/ai_opt_out",
         "source_company": "purestorage"
     },
     {
@@ -17913,62 +17858,6 @@
         "source_company": "purestorage"
     },
     {
-        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8179433",
-        "data_compliance": [
-            {
-                "type": "gdpr",
-                "requires_consent": false,
-                "requires_processing_consent": false,
-                "requires_retention_consent": false,
-                "retention_period": null,
-                "demographic_data_consent_applies": false
-            }
-        ],
-        "education": "education_optional",
-        "internal_job_id": 3539629,
-        "location": {
-            "name": "Bangalore, India"
-        },
-        "metadata": [
-            {
-                "id": 37087123,
-                "name": "Cost Center",
-                "value": "14200 Global Information Security Office",
-                "value_type": "single_select"
-            }
-        ],
-        "id": 8179433,
-        "updated_at": "2026-11-01T03:54:00-05:00",
-        "requisition_id": "18681",
-        "title": "Senior Security Operations Engineer",
-        "company_name": "Everpure",
-        "first_published": "2026-09-16T11:57:24-04:00",
-        "language": "en",
-        "application_deadline": null,
-        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a &lt;strong&gt;Senior Security Operations Engineer – Attack Surface Management&lt;/strong&gt;, you will help engineer, operate, and continuously improve our enterprise Attack Surface and Vulnerability Management capabilities.&lt;/p&gt;\n&lt;p&gt;You will focus on discovering and understanding our attack surface, identifying vulnerabilities and exposures, prioritizing them based on real-world risk, and driving remediation across our global environment.&lt;/p&gt;\n&lt;p&gt;The role spans Attack Surface Management, Vulnerability Management, Zero Trust, Secrets and Credential Security, SSPM, Deception, Detection Engineering and Security Automation. We are looking for engineers with strong ASM/Vulnerability Management fundamentals and deeper expertise in one or more adjacent security domains.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU’LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Engineer and improve enterprise Attack Surface and Vulnerability Management across cloud, infrastructure, endpoints, applications, and internet-facing environments.&lt;/li&gt;\n&lt;li&gt;Discover and correlate assets across security platforms and identify unknown, unmanaged, stale, and externally exposed assets.&lt;/li&gt;\n&lt;li&gt;Drive risk-based vulnerability prioritization using asset criticality, exposure, exploitability, known exploitation, threat intelligence, and compensating controls.&lt;/li&gt;\n&lt;li&gt;Establish remediation workflows and SLAs and partner with asset owners to drive measurable risk reduction.&lt;/li&gt;\n&lt;li&gt;Operate and troubleshoot Zscaler ZIA/ZPA, including SSL inspection, access policies, connectivity, and Zero Trust controls.&lt;/li&gt;\n&lt;li&gt;Discover and investigate exposed secrets and credentials across source code, CI/CD, cloud, repositories, and enterprise platforms, and coordinate remediation and credential rotation.&lt;/li&gt;\n&lt;li&gt;Develop and improve SIEM detections to identify exploitation, anomalous activity, credential abuse, and attack-surface-related threats.&lt;/li&gt;\n&lt;li&gt;Support threat hunting and incident investigations using vulnerability, asset, endpoint, and threat intelligence context.&lt;/li&gt;\n&lt;li&gt;Develop automation using Python, PowerShell, REST APIs, and SOAR for asset enrichment, vulnerability triage, remediation tracking, integrations, and reporting.&lt;/li&gt;\n&lt;li&gt;Partner with Cloud, Infrastructure, Network, Product Security, and Engineering teams to investigate exposures and drive remediation.&lt;/li&gt;\n&lt;li&gt;Translate technical findings into clear, actionable risk guidance and reporting for technical teams and leadership.&lt;/li&gt;\n&lt;li&gt;Support security governance and compliance requirements including SOC 2, ISO 27001, and NIST.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years of cybersecurity experience, with hands-on experience in Security Operations, Attack Surface Management, Vulnerability Management, or Exposure Management.&lt;/li&gt;\n&lt;li&gt;Strong understanding of asset discovery, vulnerability lifecycle, risk-based prioritization, remediation, and validation.&lt;/li&gt;\n&lt;li&gt;Hands-on experience with platforms such as Tenable, Qualys, Wiz, Prisma Cloud, or similar technologies.&lt;/li&gt;\n&lt;li&gt;Strong security fundamentals across TCP/IP, DNS, HTTP/HTTPS, TLS, proxies, firewalls, operating systems, identity, and cloud infrastructure.&lt;/li&gt;\n&lt;li&gt;Experience automating security workflows using Python, PowerShell, REST APIs, or similar technologies.&lt;/li&gt;\n&lt;li&gt;Strong troubleshooting and analytical skills with the ability to independently investigate complex security problems.&lt;/li&gt;\n&lt;li&gt;Ability to influence and collaborate with engineering and infrastructure teams to drive remediation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;Experience in one or more of the following is highly valued:&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Zscaler ZIA/ZPA/ ZDeception/ Zero Trust&lt;/li&gt;\n&lt;li&gt;Vulnerability Discovery, Reporting and Management - Tenable, Qualys,Rapid7 or similar&lt;/li&gt;\n&lt;li&gt;Secrets Discovery &amp;amp; Credential/Password Security – GitGuardian, Gitleaks, TruffleHog, or similar&lt;/li&gt;\n&lt;li&gt;SIEM / Detection Engineering – Splunk or similar&lt;/li&gt;\n&lt;li&gt;Threat Hunting &amp;amp; Incident Response&lt;/li&gt;\n&lt;li&gt;CrowdStrike / EDR/XDR&lt;/li&gt;\n&lt;li&gt;Security Automation / SOAR - Splunk, Tines, Torq or similar&lt;/li&gt;\n&lt;li&gt;Cloud Security – AWS, Azure, or GCP&lt;/li&gt;\n&lt;li&gt;Network Security&lt;/li&gt;\n&lt;li&gt;Product Security / DevSecOps / CI/CD Security&lt;/li&gt;\n&lt;li&gt;External Attack Surface Management (EASM)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Relevant certifications such as CISSP, CISM, GIAC, Cloud security, or Zscaler Certifications are beneficial, but strong hands-on engineering experience and demonstrated technical problem-solving skills are valued most.&lt;/p&gt;\n&lt;p&gt;We are primarily an in-office environment and therefore, you will be expected to work from the Bangalore office in compliance with Everpure&#39;s policies, unless you are on PTO, or work travel, or other approved leave.&amp;nbsp;&lt;br&gt;&lt;br&gt;#LI-ONSITE&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
-        "departments": [
-            {
-                "id": 1597,
-                "name": "IT",
-                "child_ids": [],
-                "parent_id": null
-            }
-        ],
-        "offices": [
-            {
-                "id": 241370,
-                "name": "Office - India (Bangalore - 1 Sobha)",
-                "location": "Bangalore, India",
-                "child_ids": [],
-                "parent_id": 43857
-            }
-        ],
-        "ai_disclaimer": null,
-        "include_ai_disclaimer": false,
-        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8179433/ai_opt_out",
-        "source_company": "purestorage"
-    },
-    {
         "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8179437",
         "data_compliance": [
             {
@@ -18022,6 +17911,62 @@
         "ai_disclaimer": null,
         "include_ai_disclaimer": false,
         "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8179437/ai_opt_out",
+        "source_company": "purestorage"
+    },
+    {
+        "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/8179433",
+        "data_compliance": [
+            {
+                "type": "gdpr",
+                "requires_consent": false,
+                "requires_processing_consent": false,
+                "requires_retention_consent": false,
+                "retention_period": null,
+                "demographic_data_consent_applies": false
+            }
+        ],
+        "education": "education_optional",
+        "internal_job_id": 3539629,
+        "location": {
+            "name": "Bangalore, India"
+        },
+        "metadata": [
+            {
+                "id": 37087123,
+                "name": "Cost Center",
+                "value": "14200 Global Information Security Office",
+                "value_type": "single_select"
+            }
+        ],
+        "id": 8179433,
+        "updated_at": "2026-11-01T03:54:00-05:00",
+        "requisition_id": "18681",
+        "title": "Senior Security Operations Engineer",
+        "company_name": "Everpure",
+        "first_published": "2026-09-16T11:57:24-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a &lt;strong&gt;Senior Security Operations Engineer – Attack Surface Management&lt;/strong&gt;, you will help engineer, operate, and continuously improve our enterprise Attack Surface and Vulnerability Management capabilities.&lt;/p&gt;\n&lt;p&gt;You will focus on discovering and understanding our attack surface, identifying vulnerabilities and exposures, prioritizing them based on real-world risk, and driving remediation across our global environment.&lt;/p&gt;\n&lt;p&gt;The role spans Attack Surface Management, Vulnerability Management, Zero Trust, Secrets and Credential Security, SSPM, Deception, Detection Engineering and Security Automation. We are looking for engineers with strong ASM/Vulnerability Management fundamentals and deeper expertise in one or more adjacent security domains.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU’LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Engineer and improve enterprise Attack Surface and Vulnerability Management across cloud, infrastructure, endpoints, applications, and internet-facing environments.&lt;/li&gt;\n&lt;li&gt;Discover and correlate assets across security platforms and identify unknown, unmanaged, stale, and externally exposed assets.&lt;/li&gt;\n&lt;li&gt;Drive risk-based vulnerability prioritization using asset criticality, exposure, exploitability, known exploitation, threat intelligence, and compensating controls.&lt;/li&gt;\n&lt;li&gt;Establish remediation workflows and SLAs and partner with asset owners to drive measurable risk reduction.&lt;/li&gt;\n&lt;li&gt;Operate and troubleshoot Zscaler ZIA/ZPA, including SSL inspection, access policies, connectivity, and Zero Trust controls.&lt;/li&gt;\n&lt;li&gt;Discover and investigate exposed secrets and credentials across source code, CI/CD, cloud, repositories, and enterprise platforms, and coordinate remediation and credential rotation.&lt;/li&gt;\n&lt;li&gt;Develop and improve SIEM detections to identify exploitation, anomalous activity, credential abuse, and attack-surface-related threats.&lt;/li&gt;\n&lt;li&gt;Support threat hunting and incident investigations using vulnerability, asset, endpoint, and threat intelligence context.&lt;/li&gt;\n&lt;li&gt;Develop automation using Python, PowerShell, REST APIs, and SOAR for asset enrichment, vulnerability triage, remediation tracking, integrations, and reporting.&lt;/li&gt;\n&lt;li&gt;Partner with Cloud, Infrastructure, Network, Product Security, and Engineering teams to investigate exposures and drive remediation.&lt;/li&gt;\n&lt;li&gt;Translate technical findings into clear, actionable risk guidance and reporting for technical teams and leadership.&lt;/li&gt;\n&lt;li&gt;Support security governance and compliance requirements including SOC 2, ISO 27001, and NIST.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years of cybersecurity experience, with hands-on experience in Security Operations, Attack Surface Management, Vulnerability Management, or Exposure Management.&lt;/li&gt;\n&lt;li&gt;Strong understanding of asset discovery, vulnerability lifecycle, risk-based prioritization, remediation, and validation.&lt;/li&gt;\n&lt;li&gt;Hands-on experience with platforms such as Tenable, Qualys, Wiz, Prisma Cloud, or similar technologies.&lt;/li&gt;\n&lt;li&gt;Strong security fundamentals across TCP/IP, DNS, HTTP/HTTPS, TLS, proxies, firewalls, operating systems, identity, and cloud infrastructure.&lt;/li&gt;\n&lt;li&gt;Experience automating security workflows using Python, PowerShell, REST APIs, or similar technologies.&lt;/li&gt;\n&lt;li&gt;Strong troubleshooting and analytical skills with the ability to independently investigate complex security problems.&lt;/li&gt;\n&lt;li&gt;Ability to influence and collaborate with engineering and infrastructure teams to drive remediation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;Experience in one or more of the following is highly valued:&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Zscaler ZIA/ZPA/ ZDeception/ Zero Trust&lt;/li&gt;\n&lt;li&gt;Vulnerability Discovery, Reporting and Management - Tenable, Qualys,Rapid7 or similar&lt;/li&gt;\n&lt;li&gt;Secrets Discovery &amp;amp; Credential/Password Security – GitGuardian, Gitleaks, TruffleHog, or similar&lt;/li&gt;\n&lt;li&gt;SIEM / Detection Engineering – Splunk or similar&lt;/li&gt;\n&lt;li&gt;Threat Hunting &amp;amp; Incident Response&lt;/li&gt;\n&lt;li&gt;CrowdStrike / EDR/XDR&lt;/li&gt;\n&lt;li&gt;Security Automation / SOAR - Splunk, Tines, Torq or similar&lt;/li&gt;\n&lt;li&gt;Cloud Security – AWS, Azure, or GCP&lt;/li&gt;\n&lt;li&gt;Network Security&lt;/li&gt;\n&lt;li&gt;Product Security / DevSecOps / CI/CD Security&lt;/li&gt;\n&lt;li&gt;External Attack Surface Management (EASM)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Relevant certifications such as CISSP, CISM, GIAC, Cloud security, or Zscaler Certifications are beneficial, but strong hands-on engineering experience and demonstrated technical problem-solving skills are valued most.&lt;/p&gt;\n&lt;p&gt;We are primarily an in-office environment and therefore, you will be expected to work from the Bangalore office in compliance with Everpure&#39;s policies, unless you are on PTO, or work travel, or other approved leave.&amp;nbsp;&lt;br&gt;&lt;br&gt;#LI-ONSITE&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://benefits.everpuredata.com/&quot;&gt;http://benefits.everpuredata.com/ &lt;/a&gt;for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
+        "departments": [
+            {
+                "id": 1597,
+                "name": "IT",
+                "child_ids": [],
+                "parent_id": null
+            }
+        ],
+        "offices": [
+            {
+                "id": 241370,
+                "name": "Office - India (Bangalore - 1 Sobha)",
+                "location": "Bangalore, India",
+                "child_ids": [],
+                "parent_id": 43857
+            }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": false,
+        "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8179433/ai_opt_out",
         "source_company": "purestorage"
     },
     {
