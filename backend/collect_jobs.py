@@ -9,7 +9,7 @@ COMPANIES = [
     "stripe", "twilio", "gitlab", "rubrik",
     "elastic", "okta", "purestorage", "mongodb",
     "anthropic", "fivetran", "netskope", "inmobi",
-    "devrev", "coinbase", "druva", "airbnb"
+    "devrev", "coinbase", "druva", "airbnb", "instawork"
 ]
 
 OUTPUT_DIR = Path(__file__).resolve().parent

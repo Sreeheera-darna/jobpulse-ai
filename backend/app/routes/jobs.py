@@ -58,8 +58,12 @@ async def get_jobs(search: str = "", experience: str = ""):
             if search.lower() not in searchable_text:
                 continue
 
-        if experience and experience_level.lower() != experience.lower():
-            continue
+        if experience:
+            if experience.lower() == "fresher":
+                if fresher_eligible is not True:
+                    continue
+            elif experience_level.lower() != experience.lower():
+                continue
 
         filtered_jobs.append({
             "id": job.get("absolute_url", title + company),
