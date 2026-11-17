@@ -21,8 +21,8 @@ function App() {
         });
 
         const response = await fetch(
-          `http://127.0.0.1:8000/jobs?${params.toString()}`
-        );
+          `${import.meta.env.VITE_API_BASE_URL}/jobs?${params.toString()}`
+     );
 
         if (!response.ok) {
           throw new Error("Could not fetch jobs from the server.");
