@@ -1,60 +1,47 @@
 # JobPulse AI — Data Sources
 
-## Primary data source
+JobPulse uses public ATS job-board APIs and links each result to the employer's
+original job listing. It does not use applicant data.
 
-JobPulse AI collects job listings from publicly accessible
-Greenhouse Job Board APIs.
+## Greenhouse
 
-API format:
-https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs
+API: `https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs`
 
-The collector requests job descriptions and listing details
-using the public job board endpoint.
+Configured boards: Stripe (`stripe`), Twilio (`twilio`), GitLab (`gitlab`),
+Rubrik (`rubrik`), Elastic (`elastic`), Okta (`okta`), Pure Storage
+(`purestorage`), MongoDB (`mongodb`), Anthropic (`anthropic`), Fivetran
+(`fivetran`), Netskope (`netskope`), InMobi (`inmobi`), DevRev (`devrev`),
+Coinbase (`coinbase`), Druva (`druva`), Airbnb (`airbnb`), and Instawork
+(`instawork`).
 
-## Configured company boards
+## Lever
 
-| Company | Greenhouse Board Token |
-|---|---|
-| Stripe | stripe |
-| Twilio | twilio |
-| GitLab | gitlab |
-| Rubrik | rubrik |
-| Elastic | elastic |
-| Okta | okta |
-| Pure Storage | purestorage |
-| MongoDB | mongodb |
-| Anthropic | anthropic |
-| Fivetran | fivetran |
-| Netskope | netskope |
-| InMobi | inmobi |
-| DevRev | devrev |
-| Coinbase | coinbase |
-| Druva | druva |
-| Airbnb | airbnb |
-| Instawork | instawork |
+API: `https://api.lever.co/v0/postings/{board_token}?mode=json`
 
-## Data collection process
+Configured boards: 100ms, Acceldata, CRED, Hevo Data, Meesho, Mindtickle,
+Level AI, Mactores, Nium, Onit, Shield AI, ShyftLabs, Sonatype, Sophos,
+TTEC Digital, and Turvo. Board identifiers are configured in
+`backend/collect_jobs.py`.
 
-1. Fetch listings from configured Greenhouse boards.
-2. Normalize job titles and location fields.
-3. Remove duplicate listings using job URLs.
-4. Filter listings whose locations identify India.
-5. Save the collected listings as JSON.
-6. Classify job descriptions using an LLM.
+## Ashby
 
-## Responsible data collection
+API: `https://api.ashbyhq.com/posting-api/job-board/{board_token}`
 
-- Uses publicly accessible job board endpoints.
-- Does not bypass authentication or access controls.
-- Does not scrape LinkedIn or Naukri.
-- Does not collect applicant personal information.
-- Job descriptions and application links remain attributable
-  to their original employers.
+Configured boards: AiPrise (`aiprise`), Atlan (`atlan`), Atlys (`atlys`),
+Sarvam AI (`sarvam`), and Snowflake (`snowflake`).
 
-## Limitations
+## Collection and limitations
 
-- The available listings depend on each company's live job board.
-- Not every India-based listing is suitable for fresh graduates.
-- A job's eligibility must be checked against its description.
-- The dataset is a snapshot and may change as employers update
-  or remove vacancies.
+1. Fetch currently published postings from configured boards.
+2. Normalize locations and descriptions, then deduplicate by normalized
+   job URL.
+3. Keep listings whose posted location identifies India.
+4. Classify job description fields with Gemini.
+5. Save listing data and classifications as JSON.
+
+The collectors use public ATS endpoints without bypassing authentication or
+access controls. No LinkedIn or Naukri pages are scraped. Public availability
+does not imply that every listing is suitable for freshers; eligibility is
+classified separately and ambiguous cases are not assumed eligible. Board
+availability, API behavior, and live postings can change, so the dataset is
+a daily snapshot rather than a guarantee that every employer link remains open.

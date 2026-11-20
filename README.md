@@ -64,6 +64,12 @@ Open a second PowerShell terminal:
 cd C:\Users\darna\OneDrive\Desktop\jobpulse-ai\frontend
 ```
 
+Configure the backend URL in `frontend/.env` (copy `frontend/.env.example`):
+
+```text
+VITE_API_BASE_URL=http://127.0.0.1:8000
+```
+
 Install dependencies (first-time setup only):
 
 ```powershell
@@ -128,11 +134,40 @@ Ctrl + C
 
 ## Daily Automation
 
-GitHub Actions is configured to run the job collection workflow daily.
+GitHub Actions is configured to collect and classify jobs daily at 01:30 UTC
+(07:00 India Standard Time). It commits updated JSON data to the repository.
+The page also requests fresh API data every 24 hours while it remains open;
+the new data becomes available after the scheduled workflow succeeds.
 
 Workflow file:
 
 `.github/workflows/daily-collection.yml`
+
+The workflow requires `GEMINI_API_KEY` in the repository's Actions secrets.
+The frontend deployment must set `VITE_API_BASE_URL` to the deployed backend
+URL, and the backend CORS allowlist must include the deployed frontend origin.
+
+## Current Snapshot Status
+
+The local snapshot checked on 20 November 2026 contains 886 India-based
+listings: 799 have AI classifications and 87 remain unclassified. Of the
+classified rows, 33 are tagged as fresher-eligible and 18 as internships.
+These counts do **not** establish 200 fresher/internship listings; do not
+present the total listing count as the number of eligible opportunities.
+Current-snapshot tag accuracy is also unmeasured pending the hand audit below.
+
+## Manual Audit
+
+The current 50-row sample is in `backend/manual_audit_50_review.csv`. Fill in its
+`manual_*` fields and run the metrics script from `backend/`:
+
+```powershell
+python audit_metrics.py
+```
+
+See [AUDIT_RESULTS.md](backend/AUDIT_RESULTS.md) for the current audit status
+and historical results. Historical results are not measurements of the
+current sample.
 
 ## Technologies Used
 
@@ -142,7 +177,7 @@ Workflow file:
 
 **AI:** Google Gemini API
 
-**Data Collection:** Greenhouse Public Job Board API
+**Data Collection:** Public Greenhouse, Lever, and Ashby job-board APIs
 
 **Automation:** GitHub Actions
 
