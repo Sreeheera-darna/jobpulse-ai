@@ -1,0 +1,45 @@
+﻿title,company,location,ai_experience_level,ai_fresher_eligible,job_url,manual_verification
+"Operations Associate, Apprenticeship",stripe,{'name': 'Bengaluru'},Internship,True,https://stripe.com/jobs/search?gh_jid=8131339,PENDING
+"Software Engineer, Intern",stripe,{'name': 'Bengaluru'},Internship,True,https://stripe.com/jobs/search?gh_jid=8031833,PENDING
+"Software Engineer, New Grad",stripe,{'name': 'Bangalore'},Fresher,True,https://stripe.com/jobs/search?gh_jid=8130876,PENDING
+"Senior Software Engineer, SSCS : Authentication",gitlab,"{'name': 'Bangalore, India'}",Experienced,False,https://job-boards.greenhouse.io/gitlab/jobs/8878486002,PENDING
+ENG Project/ Program - Intern,rubrik,{'name': 'Bangalore'},Internship,True,https://www.rubrik.com/company/careers/departments/job.8166514?gh_jid=8166514,PENDING
+Payroll Industrial Trainee,rubrik,{'name': 'Bangalore'},Internship,True,https://www.rubrik.com/company/careers/departments/job.8305308?gh_jid=8305308,PENDING
+Product Management Intern,rubrik,{'name': 'Bangalore'},Internship,True,https://www.rubrik.com/company/careers/departments/job.8345283?gh_jid=8345283,PENDING
+Software Engineer (CPD) - Winter Intern,rubrik,{'name': 'Bangalore'},Internship,True,https://www.rubrik.com/company/careers/departments/job.8166537?gh_jid=8166537,PENDING
+Software Engineer - Winter Intern,rubrik,{'name': 'Bangalore'},Internship,True,https://www.rubrik.com/company/careers/departments/job.8166523?gh_jid=8166523,PENDING
+Recruiting Coordinator (12 months contract),purestorage,"{'name': 'Bangalore, India'}",Experienced,False,https://job-boards.greenhouse.io/purestorage/jobs/6952672,PENDING
+Early Talent Recruiter,mongodb,{'name': 'Gurugram'},Experienced,False,https://www.mongodb.com/careers/job/?gh_jid=8328316,PENDING
+Senior Manager - Procurement,inmobi,{'name': 'Bangalore'},Experienced,False,https://job-boards.greenhouse.io/inmobi/jobs/7487222,PENDING
+"Senior Support Specialist, Premium",airbnb,"{'name': 'Gurugram, India'}",Experienced,False,https://careers.airbnb.com/positions/8225578?gh_jid=8225578,PENDING
+"Support Specialist, R1",airbnb,"{'name': 'Gurugram, India'}",Experienced,False,https://careers.airbnb.com/positions/8300382?gh_jid=8300382,PENDING
+Business Development Executive,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Fresher,True,https://job-boards.greenhouse.io/instawork/jobs/4619515006,PENDING
+Contractual || Senior Recruiter,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Experienced,False,https://job-boards.greenhouse.io/instawork/jobs/4659349006,PENDING
+Data Collector & Annotator — Morning / Evening Shift,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Fresher,True,https://job-boards.greenhouse.io/instawork/jobs/4682996006,PENDING
+Data Collector & Annotator - Night Shift,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Fresher,True,https://job-boards.greenhouse.io/instawork/jobs/4682997006,PENDING
+Field Engineering Technician,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Fresher,True,https://job-boards.greenhouse.io/instawork/jobs/4676145006,PENDING
+Hardware Intern — Robotics & AI,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Internship,True,https://job-boards.greenhouse.io/instawork/jobs/4706444006,PENDING
+HR Intern,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Internship,True,https://job-boards.greenhouse.io/instawork/jobs/4686783006,PENDING
+Inventory Management Intern,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Internship,True,https://job-boards.greenhouse.io/instawork/jobs/4646658006,PENDING
+IT Intern – Gadget & Tech Support Operations,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Internship,True,https://job-boards.greenhouse.io/instawork/jobs/4646670006,PENDING
+Operations Management Intern,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Internship,True,https://job-boards.greenhouse.io/instawork/jobs/4618554006,PENDING
+Quality Check Intern - Hardware,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Internship,True,https://job-boards.greenhouse.io/instawork/jobs/4712960006,PENDING
+Shift Supervisor,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Experienced,False,https://job-boards.greenhouse.io/instawork/jobs/4689263006,PENDING
+Trainer Intern,instawork,"{'name': 'Bengaluru, Karnataka, India'}",Internship,True,https://job-boards.greenhouse.io/instawork/jobs/4651150006,PENDING
+Associate SDE,Hevo Data,"{'name': 'Bangalore, India'}",Fresher,True,https://jobs.lever.co/hevodata/4eccaf98-ba19-42ea-b040-e0976d4dadfe,PENDING
+Associate Software Development Engineer (SDE) Intern,Hevo Data,"{'name': 'Bangalore, India'}",Internship,True,https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a,PENDING
+SDE I,Hevo Data,"{'name': 'Bangalore, India'}",Fresher,True,https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a,PENDING
+HR Recruitment (Intern),Mactores,"{'name': 'Mumbai, MH'}",Internship,True,https://jobs.lever.co/mactores/c07a755d-b087-4737-b853-2d5b8e17800b,PENDING
+Sales Operations (Intern),Mactores,"{'name': 'Mumbai, MH'}",Internship,True,https://jobs.lever.co/mactores/e712a6b3-4227-471e-83b2-6d5698197372,PENDING
+Principal Consultant – Salesforce,TTEC Digital,{'name': 'Hyderabad'},Experienced,False,https://jobs.lever.co/ttecdigital/7708ed85-699a-4f14-8f0f-a72efab76623,PENDING
+Sr. Consultant - Salesforce,TTEC Digital,{'name': 'Hyderabad'},Experienced,False,https://jobs.lever.co/ttecdigital/48bc2176-d02a-4367-acce-f784a18fd4e1,PENDING
+Fulfilment Intern,Atlys,{'name': 'Delhi HQ'},,,https://jobs.ashbyhq.com/atlys/b64524ad-e4ab-4e0f-b4fe-f13ffc661a92,PENDING
+Pre Sales Intern,Atlys,{'name': 'Delhi HQ'},,,https://jobs.ashbyhq.com/atlys/906d7ff6-04f3-4211-99ce-71d373a95613,PENDING
+Launchpad Fellowship,Atlys,{'name': 'Delhi HQ'},,,https://jobs.ashbyhq.com/atlys/53dcce66-f865-4d1e-a6b0-31433d844723,PENDING
+Pre Sales Associate,Atlys,{'name': 'Delhi HQ'},,,https://jobs.ashbyhq.com/atlys/f0299bf8-7dc7-4d23-95b7-3312d72a68e1,PENDING
+Copywriting Intern,Atlys,{'name': 'Delhi HQ'},,,https://jobs.ashbyhq.com/atlys/08613c2a-3544-4e59-8b2c-3a6f548c0284,PENDING
+Graphic Design Intern,Atlys,{'name': 'Delhi HQ'},,,https://jobs.ashbyhq.com/atlys/b3f4f145-be12-442c-9107-9e7ac1297bc1,PENDING
+Content & Campaign Operations Intern,Atlys,{'name': 'Delhi HQ'},,,https://jobs.ashbyhq.com/atlys/21fbe723-7683-4985-8dc6-03cef46df125,PENDING
+"GTM & Strategy, Model API",Sarvam AI,{'name': 'Bengaluru'},,,https://jobs.ashbyhq.com/sarvam/2fd59d81-b766-4f54-85b3-d0eae08dbfc0,PENDING
+Marketing internship (brand & communication),Sarvam AI,{'name': 'Bengaluru'},,,https://jobs.ashbyhq.com/sarvam/bba82f34-1544-421e-a393-3edd8a5f4cb2,PENDING
+"Product User Research, Intern",Sarvam AI,{'name': 'Bengaluru'},,,https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72,PENDING
